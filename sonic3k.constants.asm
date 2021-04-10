@@ -1105,6 +1105,7 @@ mus_FinalBoss			ds.b 1		; $30
 mus_Drowning			ds.b 1		; $31
 mus_Ending			ds.b 1		; $32
 mus_CreditsK			ds.b 1		; $DC - Can also be treated as SFX?
+mus_TanTan          ds.b 1
 Mus__End =			*		; next ID after last music
 
 ; ---------------------------------------------------------------------------

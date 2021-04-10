@@ -1,1864 +1,922 @@
-PLC_148182:	dc.w word_14856E-PLC_148182
-					
-		dc.w word_148570-PLC_148182
-		dc.w word_148578-PLC_148182
-		dc.w word_148580-PLC_148182
-		dc.w word_148588-PLC_148182
-		dc.w word_14858E-PLC_148182
-		dc.w word_148596-PLC_148182
-		dc.w word_14859E-PLC_148182
-		dc.w word_1485A6-PLC_148182
-		dc.w word_1485AC-PLC_148182
-		dc.w word_1485B6-PLC_148182
-		dc.w word_1485C0-PLC_148182
-		dc.w word_1485CA-PLC_148182
-		dc.w word_1485D4-PLC_148182
-		dc.w word_1485DE-PLC_148182
-		dc.w word_1485E8-PLC_148182
-		dc.w word_1485F2-PLC_148182
-		dc.w word_1485FC-PLC_148182
-		dc.w word_148604-PLC_148182
-		dc.w word_14860C-PLC_148182
-		dc.w word_148614-PLC_148182
-		dc.w word_14861A-PLC_148182
-		dc.w word_148622-PLC_148182
-		dc.w word_14862C-PLC_148182
-		dc.w word_148634-PLC_148182
-		dc.w word_14863A-PLC_148182
-		dc.w word_148644-PLC_148182
-		dc.w word_14864E-PLC_148182
-		dc.w word_148658-PLC_148182
-		dc.w word_148662-PLC_148182
-		dc.w word_14866C-PLC_148182
-		dc.w word_148676-PLC_148182
-		dc.w word_148680-PLC_148182
-		dc.w word_14868A-PLC_148182
-		dc.w word_148690-PLC_148182
-		dc.w word_148696-PLC_148182
-		dc.w word_14869C-PLC_148182
-		dc.w word_1486A2-PLC_148182
-		dc.w word_1486AC-PLC_148182
-		dc.w word_1486B2-PLC_148182
-		dc.w word_1486BC-PLC_148182
-		dc.w word_1486C2-PLC_148182
-		dc.w word_1486C8-PLC_148182
-		dc.w word_1486CE-PLC_148182
-		dc.w word_1486D4-PLC_148182
-		dc.w word_1486DA-PLC_148182
-		dc.w word_1486E2-PLC_148182
-		dc.w word_1486E8-PLC_148182
-		dc.w word_1486F0-PLC_148182
-		dc.w word_1486F6-PLC_148182
-		dc.w word_1486FE-PLC_148182
-		dc.w word_148708-PLC_148182
-		dc.w word_148712-PLC_148182
-		dc.w word_14871C-PLC_148182
-		dc.w word_148726-PLC_148182
-		dc.w word_14872E-PLC_148182
-		dc.w word_148734-PLC_148182
-		dc.w word_14873A-PLC_148182
-		dc.w word_148742-PLC_148182
-		dc.w word_14874C-PLC_148182
-		dc.w word_148752-PLC_148182
-		dc.w word_148758-PLC_148182
-		dc.w word_148760-PLC_148182
-		dc.w word_148764-PLC_148182
-		dc.w word_14876C-PLC_148182
-		dc.w word_148776-PLC_148182
-		dc.w word_148780-PLC_148182
-		dc.w word_14878A-PLC_148182
-		dc.w word_148790-PLC_148182
-		dc.w word_148794-PLC_148182
-		dc.w word_14879A-PLC_148182
-		dc.w word_14879E-PLC_148182
-		dc.w word_1487A4-PLC_148182
-		dc.w word_1487AC-PLC_148182
-		dc.w word_1487B6-PLC_148182
-		dc.w word_1487C0-PLC_148182
-		dc.w word_1487C8-PLC_148182
-		dc.w word_1487D0-PLC_148182
-		dc.w word_1487D8-PLC_148182
-		dc.w word_1487DC-PLC_148182
-		dc.w word_1487E6-PLC_148182
-		dc.w word_1487F0-PLC_148182
-		dc.w word_1487F6-PLC_148182
-		dc.w word_1487FE-PLC_148182
-		dc.w word_148806-PLC_148182
-		dc.w word_14880C-PLC_148182
-		dc.w word_148816-PLC_148182
-		dc.w word_14881E-PLC_148182
-		dc.w word_148824-PLC_148182
-		dc.w word_14882A-PLC_148182
-		dc.w word_148834-PLC_148182
-		dc.w word_14883C-PLC_148182
-		dc.w word_148842-PLC_148182
-		dc.w word_14884A-PLC_148182
-		dc.w word_14884E-PLC_148182
-		dc.w word_148854-PLC_148182
-		dc.w word_14885C-PLC_148182
-		dc.w word_148860-PLC_148182
-		dc.w word_148866-PLC_148182
-		dc.w word_14886C-PLC_148182
-		dc.w word_148874-PLC_148182
-		dc.w word_148878-PLC_148182
-		dc.w word_14887E-PLC_148182
-		dc.w word_148886-PLC_148182
-		dc.w word_14888A-PLC_148182
-		dc.w word_148890-PLC_148182
-		dc.w word_148896-PLC_148182
-		dc.w word_1488A0-PLC_148182
-		dc.w word_1488A8-PLC_148182
-		dc.w word_1488B0-PLC_148182
-		dc.w word_1488B6-PLC_148182
-		dc.w word_1488BE-PLC_148182
-		dc.w word_1488C6-PLC_148182
-		dc.w word_1488CE-PLC_148182
-		dc.w word_1488D4-PLC_148182
-		dc.w word_1488DE-PLC_148182
-		dc.w word_1488E6-PLC_148182
-		dc.w word_1488EE-PLC_148182
-		dc.w word_1488F4-PLC_148182
-		dc.w word_1488FC-PLC_148182
-		dc.w word_148900-PLC_148182
-		dc.w word_14890A-PLC_148182
-		dc.w word_148914-PLC_148182
-		dc.w word_14891C-PLC_148182
-		dc.w word_148926-PLC_148182
-		dc.w word_148930-PLC_148182
-		dc.w word_14893A-PLC_148182
-		dc.w word_148942-PLC_148182
-		dc.w word_14894C-PLC_148182
-		dc.w word_148956-PLC_148182
-		dc.w word_148960-PLC_148182
-		dc.w word_148968-PLC_148182
-		dc.w word_148972-PLC_148182
-		dc.w word_14897A-PLC_148182
-		dc.w word_148980-PLC_148182
-		dc.w word_148988-PLC_148182
-		dc.w word_14898E-PLC_148182
-		dc.w word_148994-PLC_148182
-		dc.w word_14899A-PLC_148182
-		dc.w word_1489A0-PLC_148182
-		dc.w word_1489A6-PLC_148182
-		dc.w word_1489AE-PLC_148182
-		dc.w word_1489B6-PLC_148182
-		dc.w word_1489BC-PLC_148182
-		dc.w word_1489C4-PLC_148182
-		dc.w word_1489CE-PLC_148182
-		dc.w word_1489D8-PLC_148182
-		dc.w word_1489E2-PLC_148182
-		dc.w word_1489E8-PLC_148182
-		dc.w word_1489F4-PLC_148182
-		dc.w word_148A00-PLC_148182
-		dc.w word_148A04-PLC_148182
-		dc.w word_148A08-PLC_148182
-		dc.w word_148A0C-PLC_148182
-		dc.w word_148A10-PLC_148182
-		dc.w word_148A14-PLC_148182
-		dc.w word_148A1A-PLC_148182
-		dc.w word_148A20-PLC_148182
-		dc.w word_148A2A-PLC_148182
-		dc.w word_148A34-PLC_148182
-		dc.w word_148A3E-PLC_148182
-		dc.w word_148A46-PLC_148182
-		dc.w word_148A4E-PLC_148182
-		dc.w word_148A58-PLC_148182
-		dc.w word_148A60-PLC_148182
-		dc.w word_148A6A-PLC_148182
-		dc.w word_148A72-PLC_148182
-		dc.w word_148A7C-PLC_148182
-		dc.w word_148A84-PLC_148182
-		dc.w word_148A8C-PLC_148182
-		dc.w word_148A94-PLC_148182
-		dc.w word_148A9C-PLC_148182
-		dc.w word_148AA4-PLC_148182
-		dc.w word_148AAE-PLC_148182
-		dc.w word_148AB8-PLC_148182
-		dc.w word_148AC2-PLC_148182
-		dc.w word_148ACC-PLC_148182
-		dc.w word_148AD2-PLC_148182
-		dc.w word_148ADA-PLC_148182
-		dc.w word_148AE2-PLC_148182
-		dc.w word_148AEA-PLC_148182
-		dc.w word_148AF2-PLC_148182
-		dc.w word_148AFA-PLC_148182
-		dc.w word_148B02-PLC_148182
-		dc.w word_148B0A-PLC_148182
-		dc.w word_148B12-PLC_148182
-		dc.w word_148B1A-PLC_148182
-		dc.w word_148B24-PLC_148182
-		dc.w word_148B2C-PLC_148182
-		dc.w word_148B36-PLC_148182
-		dc.w word_148B40-PLC_148182
-		dc.w word_148B4A-PLC_148182
-		dc.w word_148B54-PLC_148182
-		dc.w word_148B5E-PLC_148182
-		dc.w word_148B64-PLC_148182
-		dc.w word_148B6E-PLC_148182
-		dc.w word_148B78-PLC_148182
-		dc.w word_148B82-PLC_148182
-		dc.w word_148B8A-PLC_148182
-		dc.w word_148B94-PLC_148182
-		dc.w word_148B9E-PLC_148182
-		dc.w word_148BA6-PLC_148182
-		dc.w word_148BAE-PLC_148182
-		dc.w word_148BA6-PLC_148182
-		dc.w word_148B9E-PLC_148182
-		dc.w word_148BB4-PLC_148182
-		dc.w word_148BBA-PLC_148182
-		dc.w word_148BB4-PLC_148182
-		dc.w word_148BC0-PLC_148182
-		dc.w word_148BC8-PLC_148182
-		dc.w word_148E96-PLC_148182
-		dc.w word_148E9A-PLC_148182
-		dc.w word_148EA2-PLC_148182
-		dc.w word_148EA8-PLC_148182
-		dc.w word_148EB0-PLC_148182
-		dc.w word_148BD0-PLC_148182
-		dc.w word_148BD8-PLC_148182
-		dc.w word_148BE0-PLC_148182
-		dc.w word_148BEA-PLC_148182
-		dc.w word_148BEA-PLC_148182
-		dc.w word_148BEA-PLC_148182
-		dc.w word_148BEA-PLC_148182
-		dc.w word_148BEA-PLC_148182
-		dc.w word_148BEA-PLC_148182
-		dc.w word_148BF2-PLC_148182
-		dc.w word_148BF6-PLC_148182
-		dc.w word_148BFC-PLC_148182
-		dc.w word_148C06-PLC_148182
-		dc.w word_148C10-PLC_148182
-		dc.w word_148C1A-PLC_148182
-		dc.w word_148C24-PLC_148182
-		dc.w word_148C2C-PLC_148182
-		dc.w word_148C32-PLC_148182
-		dc.w word_148C3C-PLC_148182
-		dc.w word_148C44-PLC_148182
-		dc.w word_148C4A-PLC_148182
-		dc.w word_148C54-PLC_148182
-		dc.w word_148C5C-PLC_148182
-		dc.w word_148C64-PLC_148182
-		dc.w word_148C6E-PLC_148182
-		dc.w word_148C74-PLC_148182
-		dc.w word_148C7C-PLC_148182
-		dc.w word_148C82-PLC_148182
-		dc.w word_148C88-PLC_148182
-		dc.w word_148C8E-PLC_148182
-		dc.w word_148C98-PLC_148182
-		dc.w word_148CA0-PLC_148182
-		dc.w word_148CA6-PLC_148182
-		dc.w word_148CAC-PLC_148182
-		dc.w word_148CB4-PLC_148182
-		dc.w word_148CBA-PLC_148182
-PLC_SuperSonic:
-PLC_148378:	dc.w word_148CC0-PLC_148378	
-					
-		dc.w word_148CC2-PLC_148378
-		dc.w word_148CCA-PLC_148378
-		dc.w word_148CD2-PLC_148378
-		dc.w word_148CDA-PLC_148378
-		dc.w word_148CE2-PLC_148378
-		dc.w word_148CEC-PLC_148378
-		dc.w word_148CF6-PLC_148378
-		dc.w word_148CFE-PLC_148378
-		dc.w word_148D04-PLC_148378
-		dc.w word_148D0E-PLC_148378
-		dc.w word_148D18-PLC_148378
-		dc.w word_148D22-PLC_148378
-		dc.w word_148D2C-PLC_148378
-		dc.w word_148D36-PLC_148378
-		dc.w word_148D40-PLC_148378
-		dc.w word_148D4A-PLC_148378
-		dc.w word_148D54-PLC_148378
-		dc.w word_148D5C-PLC_148378
-		dc.w word_148D64-PLC_148378
-		dc.w word_148D6C-PLC_148378
-		dc.w word_148D74-PLC_148378
-		dc.w word_148D7E-PLC_148378
-		dc.w word_148D88-PLC_148378
-		dc.w word_148D90-PLC_148378
-		dc.w word_148D96-PLC_148378
-		dc.w word_148DA0-PLC_148378
-		dc.w word_148DAA-PLC_148378
-		dc.w word_148DB4-PLC_148378
-		dc.w word_148DBE-PLC_148378
-		dc.w word_148DC8-PLC_148378
-		dc.w word_148DD2-PLC_148378
-		dc.w word_148DDC-PLC_148378
-		dc.w word_148DE6-PLC_148378
-		dc.w word_148DF0-PLC_148378
-		dc.w word_148DE6-PLC_148378
-		dc.w word_148DF0-PLC_148378
-		dc.w word_148DFA-PLC_148378
-		dc.w word_148E04-PLC_148378
-		dc.w word_148DFA-PLC_148378
-		dc.w word_148E04-PLC_148378
-		dc.w word_148E0E-PLC_148378
-		dc.w word_148E18-PLC_148378
-		dc.w word_148E0E-PLC_148378
-		dc.w word_148E18-PLC_148378
-		dc.w word_148E22-PLC_148378
-		dc.w word_148E2C-PLC_148378
-		dc.w word_148E22-PLC_148378
-		dc.w word_148E2C-PLC_148378
-		dc.w word_1486F6-PLC_148378
-		dc.w word_1486FE-PLC_148378
-		dc.w word_148708-PLC_148378
-		dc.w word_148712-PLC_148378
-		dc.w word_14871C-PLC_148378
-		dc.w word_148726-PLC_148378
-		dc.w word_14872E-PLC_148378
-		dc.w word_148734-PLC_148378
-		dc.w word_14873A-PLC_148378
-		dc.w word_148742-PLC_148378
-		dc.w word_14874C-PLC_148378
-		dc.w word_148752-PLC_148378
-		dc.w word_148758-PLC_148378
-		dc.w word_148760-PLC_148378
-		dc.w word_148764-PLC_148378
-		dc.w word_14876C-PLC_148378
-		dc.w word_148776-PLC_148378
-		dc.w word_148780-PLC_148378
-		dc.w word_14878A-PLC_148378
-		dc.w word_148790-PLC_148378
-		dc.w word_148794-PLC_148378
-		dc.w word_14879A-PLC_148378
-		dc.w word_14879E-PLC_148378
-		dc.w word_1487A4-PLC_148378
-		dc.w word_1487AC-PLC_148378
-		dc.w word_1487B6-PLC_148378
-		dc.w word_1487C0-PLC_148378
-		dc.w word_1487C8-PLC_148378
-		dc.w word_1487D0-PLC_148378
-		dc.w word_1487D8-PLC_148378
-		dc.w word_1487DC-PLC_148378
-		dc.w word_1487E6-PLC_148378
-		dc.w word_1487F0-PLC_148378
-		dc.w word_1487F6-PLC_148378
-		dc.w word_1487FE-PLC_148378
-		dc.w word_148806-PLC_148378
-		dc.w word_14880C-PLC_148378
-		dc.w word_148816-PLC_148378
-		dc.w word_14881E-PLC_148378
-		dc.w word_148824-PLC_148378
-		dc.w word_14882A-PLC_148378
-		dc.w word_148834-PLC_148378
-		dc.w word_14883C-PLC_148378
-		dc.w word_148842-PLC_148378
-		dc.w word_14884A-PLC_148378
-		dc.w word_14884E-PLC_148378
-		dc.w word_148854-PLC_148378
-		dc.w word_14885C-PLC_148378
-		dc.w word_148860-PLC_148378
-		dc.w word_148866-PLC_148378
-		dc.w word_14886C-PLC_148378
-		dc.w word_148874-PLC_148378
-		dc.w word_148878-PLC_148378
-		dc.w word_14887E-PLC_148378
-		dc.w word_148886-PLC_148378
-		dc.w word_14888A-PLC_148378
-		dc.w word_148890-PLC_148378
-		dc.w word_148896-PLC_148378
-		dc.w word_1488A0-PLC_148378
-		dc.w word_1488A8-PLC_148378
-		dc.w word_1488B0-PLC_148378
-		dc.w word_1488B6-PLC_148378
-		dc.w word_1488BE-PLC_148378
-		dc.w word_1488C6-PLC_148378
-		dc.w word_1488CE-PLC_148378
-		dc.w word_1488D4-PLC_148378
-		dc.w word_1488DE-PLC_148378
-		dc.w word_1488E6-PLC_148378
-		dc.w word_1488EE-PLC_148378
-		dc.w word_1488F4-PLC_148378
-		dc.w word_1488FC-PLC_148378
-		dc.w word_148900-PLC_148378
-		dc.w word_14890A-PLC_148378
-		dc.w word_148914-PLC_148378
-		dc.w word_14891C-PLC_148378
-		dc.w word_148926-PLC_148378
-		dc.w word_148930-PLC_148378
-		dc.w word_14893A-PLC_148378
-		dc.w word_148942-PLC_148378
-		dc.w word_14894C-PLC_148378
-		dc.w word_148956-PLC_148378
-		dc.w word_148960-PLC_148378
-		dc.w word_148968-PLC_148378
-		dc.w word_148972-PLC_148378
-		dc.w word_14897A-PLC_148378
-		dc.w word_148980-PLC_148378
-		dc.w word_148988-PLC_148378
-		dc.w word_14898E-PLC_148378
-		dc.w word_148994-PLC_148378
-		dc.w word_14899A-PLC_148378
-		dc.w word_1489A0-PLC_148378
-		dc.w word_1489A6-PLC_148378
-		dc.w word_1489AE-PLC_148378
-		dc.w word_1489B6-PLC_148378
-		dc.w word_1489BC-PLC_148378
-		dc.w word_1489C4-PLC_148378
-		dc.w word_1489CE-PLC_148378
-		dc.w word_1489D8-PLC_148378
-		dc.w word_1489E2-PLC_148378
-		dc.w word_1489E8-PLC_148378
-		dc.w word_1489F4-PLC_148378
-		dc.w word_148A00-PLC_148378
-		dc.w word_148A04-PLC_148378
-		dc.w word_148A08-PLC_148378
-		dc.w word_148A0C-PLC_148378
-		dc.w word_148A10-PLC_148378
-		dc.w word_148E36-PLC_148378
-		dc.w word_148E36-PLC_148378
-		dc.w word_148A20-PLC_148378
-		dc.w word_148A2A-PLC_148378
-		dc.w word_148A34-PLC_148378
-		dc.w word_148A3E-PLC_148378
-		dc.w word_148E3C-PLC_148378
-		dc.w word_148E46-PLC_148378
-		dc.w word_148E50-PLC_148378
-		dc.w word_148E3C-PLC_148378
-		dc.w word_148E46-PLC_148378
-		dc.w word_148E50-PLC_148378
-		dc.w word_148A7C-PLC_148378
-		dc.w word_148A84-PLC_148378
-		dc.w word_148A8C-PLC_148378
-		dc.w word_148A94-PLC_148378
-		dc.w word_148A9C-PLC_148378
-		dc.w word_148AA4-PLC_148378
-		dc.w word_148AAE-PLC_148378
-		dc.w word_148AB8-PLC_148378
-		dc.w word_148AC2-PLC_148378
-		dc.w word_148ACC-PLC_148378
-		dc.w word_148AD2-PLC_148378
-		dc.w word_148ADA-PLC_148378
-		dc.w word_148AE2-PLC_148378
-		dc.w word_148AEA-PLC_148378
-		dc.w word_148AF2-PLC_148378
-		dc.w word_148E5A-PLC_148378
-		dc.w word_148E62-PLC_148378
-		dc.w word_148E6A-PLC_148378
-		dc.w word_148E72-PLC_148378
-		dc.w word_148E7A-PLC_148378
-		dc.w word_148E84-PLC_148378
-		dc.w word_148E7A-PLC_148378
-		dc.w word_148E84-PLC_148378
-		dc.w word_148E7A-PLC_148378
-		dc.w word_148E84-PLC_148378
-		dc.w word_148E7A-PLC_148378
-		dc.w word_148E84-PLC_148378
-		dc.w word_148E7A-PLC_148378
-		dc.w word_148B6E-PLC_148378
-		dc.w word_148B78-PLC_148378
-		dc.w word_148E84-PLC_148378
-		dc.w word_148E7A-PLC_148378
-		dc.w word_148E84-PLC_148378
-		dc.w word_148B9E-PLC_148378
-		dc.w word_148BA6-PLC_148378
-		dc.w word_148BAE-PLC_148378
-		dc.w word_148BA6-PLC_148378
-		dc.w word_148B9E-PLC_148378
-		dc.w word_148BB4-PLC_148378
-		dc.w word_148BBA-PLC_148378
-		dc.w word_148BB4-PLC_148378
-		dc.w word_148BC0-PLC_148378
-		dc.w word_148BC8-PLC_148378
-		dc.w word_148E96-PLC_148378
-		dc.w word_148E9A-PLC_148378
-		dc.w word_148EA2-PLC_148378
-		dc.w word_148EA8-PLC_148378
-		dc.w word_148EB0-PLC_148378
-		dc.w word_148BD0-PLC_148378
-		dc.w word_148BD8-PLC_148378
-		dc.w word_148BE0-PLC_148378
-		dc.w word_148BEA-PLC_148378
-		dc.w word_148BEA-PLC_148378
-		dc.w word_148BEA-PLC_148378
-		dc.w word_148BEA-PLC_148378
-		dc.w word_148BEA-PLC_148378
-		dc.w word_148BEA-PLC_148378
-		dc.w word_148BF2-PLC_148378
-		dc.w word_148BF6-PLC_148378
-		dc.w word_148BFC-PLC_148378
-		dc.w word_148C06-PLC_148378
-		dc.w word_148C10-PLC_148378
-		dc.w word_148C1A-PLC_148378
-		dc.w word_148C24-PLC_148378
-		dc.w word_148C2C-PLC_148378
-		dc.w word_148C32-PLC_148378
-		dc.w word_148C3C-PLC_148378
-		dc.w word_148C44-PLC_148378
-		dc.w word_148C4A-PLC_148378
-		dc.w word_148C54-PLC_148378
-		dc.w word_148C5C-PLC_148378
-		dc.w word_148C64-PLC_148378
-		dc.w word_148C6E-PLC_148378
-		dc.w word_148C74-PLC_148378
-		dc.w word_148C7C-PLC_148378
-		dc.w word_148C82-PLC_148378
-		dc.w word_148C88-PLC_148378
-		dc.w word_148C8E-PLC_148378
-		dc.w word_148C98-PLC_148378
-		dc.w word_148CA0-PLC_148378
-		dc.w word_148CA6-PLC_148378
-		dc.w word_148CAC-PLC_148378
-		dc.w word_148CB4-PLC_148378
-		dc.w word_148CBA-PLC_148378
-word_14856E:	dc.w 0			
-word_148570:	dc.w 3			
-		dc.w $7000
-		dc.w $5008
-		dc.w $800E
-word_148578:	dc.w 3			
-		dc.w $B017
-		dc.w $1023
-		dc.w $7000
-word_148580:	dc.w 3			
-		dc.w $8025
-		dc.w $302E
-		dc.w $2032
-word_148588:	dc.w 2			
-		dc.w $B035
-		dc.w $5041
-word_14858E:	dc.w 3			
-		dc.w $B047
-		dc.w $1053
-		dc.w $5041
-word_148596:	dc.w 3			
-		dc.w $B055
-		dc.w $1061
-		dc.w $5041
-word_14859E:	dc.w 3			
-		dc.w $8063
-		dc.w $302E
-		dc.w $2032
-word_1485A6:	dc.w 2			
-		dc.w $806C
-		dc.w $7000
-word_1485AC:	dc.w 4			
-		dc.w $B0AF
-		dc.w $70BB
-		dc.w $C3
-		dc.w $30C4
-word_1485B6:	dc.w 4			
-		dc.w $B0C8
-		dc.w $70D4
-		dc.w $10DC
-		dc.w $10DE
-word_1485C0:	dc.w 4			
-		dc.w $80E0
-		dc.w $10E9
-		dc.w $30EB
-		dc.w $30EF
-word_1485CA:	dc.w 4			
-		dc.w $B0F3
-		dc.w $70FF
-		dc.w $1107
-		dc.w $109
-word_1485D4:	dc.w 4			
-		dc.w $B10A
-		dc.w $7116
-		dc.w $111E
-		dc.w $5120
-word_1485DE:	dc.w 4			
-		dc.w $F126
-		dc.w $5136
-		dc.w $213C
-		dc.w $313F
-word_1485E8:	dc.w 4			
-		dc.w $8143
-		dc.w $714C
-		dc.w $1154
-		dc.w $156
-word_1485F2:	dc.w 4			
-		dc.w $8157
-		dc.w $2160
-		dc.w $3163
-		dc.w $3167
-word_1485FC:	dc.w 3			
-		dc.w $51EF
-		dc.w $81F5
-		dc.w $71FE
-word_148604:	dc.w 3			
-		dc.w $B206
-		dc.w $1212
-		dc.w $7214
-word_14860C:	dc.w 3			
-		dc.w $821C
-		dc.w $5225
-		dc.w $22B
-word_148614:	dc.w 2			
-		dc.w $B22C
-		dc.w $7238
-word_14861A:	dc.w 3			
-		dc.w $1240
-		dc.w $B242
-		dc.w $7238
-word_148622:	dc.w 4			
-		dc.w $124E
-		dc.w $B250
-		dc.w $525C
-		dc.w $262
-word_14862C:	dc.w 3			
-		dc.w $8263
-		dc.w $5225
-		dc.w $22B
-word_148634:	dc.w 2			
-		dc.w $826C
-		dc.w $71FE
-word_14863A:	dc.w 4			
-		dc.w $B2E3
-		dc.w $52EF
-		dc.w $32F5
-		dc.w $22F9
-word_148644:	dc.w 4			
-		dc.w $B2FC
-		dc.w $1308
-		dc.w $330A
-		dc.w $530E
-word_14864E:	dc.w 4			
-		dc.w $8314
-		dc.w $331D
-		dc.w $3321
-		dc.w $1325
-word_148658:	dc.w 4			
-		dc.w $B327
-		dc.w $3333
-		dc.w $3337
-		dc.w $233B
-word_148662:	dc.w 4			
-		dc.w $B33E
-		dc.w $534A
-		dc.w $7350
-		dc.w $358
-word_14866C:	dc.w 4			
-		dc.w $F359
-		dc.w $2369
-		dc.w $136C
-		dc.w $736E
-word_148676:	dc.w 4			
-		dc.w $8376
-		dc.w $337F
-		dc.w $3383
-		dc.w $2387
-word_148680:	dc.w 4			
-		dc.w $838A
-		dc.w $3393
-		dc.w $3397
-		dc.w $239B
-word_14868A:	dc.w 2			
-		dc.w $2421
-		dc.w $F424
-word_148690:	dc.w 2			
-		dc.w $2434
-		dc.w $F437
-word_148696:	dc.w 2			
-		dc.w $2421
-		dc.w $F447
-word_14869C:	dc.w 2			
-		dc.w $2434
-		dc.w $F457
-word_1486A2:	dc.w 4			
-		dc.w $B48B
-		dc.w $497
-		dc.w $3498
-		dc.w $249C
-word_1486AC:	dc.w 2			
-		dc.w $249F
-		dc.w $F4A2
-word_1486B2:	dc.w 4			
-		dc.w $B4B2
-		dc.w $4BE
-		dc.w $34BF
-		dc.w $24C3
-word_1486BC:	dc.w 2			
-		dc.w $249F
-		dc.w $F4C6
-word_1486C2:	dc.w 2			
-		dc.w $2504
-		dc.w $F507
-word_1486C8:	dc.w 2			
-		dc.w $2517
-		dc.w $F51A
-word_1486CE:	dc.w 2			
-		dc.w $2504
-		dc.w $F52A
-word_1486D4:	dc.w 2			
-		dc.w $2517
-		dc.w $F53A
-word_1486DA:	dc.w 3			
-		dc.w $1570
-		dc.w $B572
-		dc.w $557E
-word_1486E2:	dc.w 2			
-		dc.w $2584
-		dc.w $F587
-word_1486E8:	dc.w 3			
-		dc.w $1597
-		dc.w $B599
-		dc.w $55A5
-word_1486F0:	dc.w 2			
-		dc.w $2584
-		dc.w $F5AB
-word_1486F6:	dc.w 3			
-					
-		dc.w $25E6
-		dc.w $B5E9
-		dc.w $25F5
-word_1486FE:	dc.w 4			
-					
-		dc.w $55F8
-		dc.w $35FE
-		dc.w $2602
-		dc.w $1605
-word_148708:	dc.w 4			
-					
-		dc.w $1607
-		dc.w $2609
-		dc.w $360C
-		dc.w $1610
-word_148712:	dc.w 4			
-					
-		dc.w $2612
-		dc.w $3615
-		dc.w $2619
-		dc.w $361C
-word_14871C:	dc.w 4			
-					
-		dc.w $1620
-		dc.w $2622
-		dc.w $3625
-		dc.w $2629
-word_148726:	dc.w 3			
-					
-		dc.w $162C
-		dc.w $762E
-		dc.w $5636
-word_14872E:	dc.w 2			
-					
-		dc.w $F63C
-		dc.w $264C
-word_148734:	dc.w 2			
-					
-		dc.w $B64F
-		dc.w $65B
-word_14873A:	dc.w 3			
-					
-		dc.w $165C
-		dc.w $765E
-		dc.w $2666
-word_148742:	dc.w 4			
-					
-		dc.w $2669
-		dc.w $366C
-		dc.w $2670
-		dc.w $1673
-word_14874C:	dc.w 2			
-					
-		dc.w $8675
-		dc.w $367E
-word_148752:	dc.w 2			
-					
-		dc.w $B682
-		dc.w $268E
-word_148758:	dc.w 3			
-					
-		dc.w $691
-		dc.w $B692
-		dc.w $269E
-word_148760:	dc.w 1			
-					
-		dc.w $B6A1
-word_148764:	dc.w 3			
-					
-		dc.w $26AD
-		dc.w $76B0
-		dc.w $16B8
-word_14876C:	dc.w 4			
-					
-		dc.w $26BA
-		dc.w $36BD
-		dc.w $26C1
-		dc.w $16C4
-word_148776:	dc.w 4			
-					
-		dc.w $56C6
-		dc.w $36CC
-		dc.w $26D0
-		dc.w $16D3
-word_148780:	dc.w 4			
-					
-		dc.w $56D5
-		dc.w $26DB
-		dc.w $36DE
-		dc.w $26E2
-word_14878A:	dc.w 2			
-					
-		dc.w $B6E5
-		dc.w $26F1
-word_148790:	dc.w 1			
-					
-		dc.w $B6F4
-word_148794:	dc.w 2			
-					
-		dc.w $7700
-		dc.w $2708
-word_14879A:	dc.w 1			
-					
-		dc.w $B70B
-word_14879E:	dc.w 2			
-					
-		dc.w $1717
-		dc.w $B719
-word_1487A4:	dc.w 3			
-					
-		dc.w $2725
-		dc.w $7728
-		dc.w $5730
-word_1487AC:	dc.w 4			
-					
-		dc.w $8736
-		dc.w $373F
-		dc.w $3743
-		dc.w $2747
-word_1487B6:	dc.w 4			
-					
-		dc.w $274A
-		dc.w $774D
-		dc.w $2755
-		dc.w $3758
-word_1487C0:	dc.w 3			
-					
-		dc.w $575C
-		dc.w $3762
-		dc.w $2766
-word_1487C8:	dc.w 3			
-					
-		dc.w $2769
-		dc.w $776C
-		dc.w $2774
-word_1487D0:	dc.w 3			
-					
-		dc.w $1777
-		dc.w $7779
-		dc.w $1781
-word_1487D8:	dc.w 1			
-					
-		dc.w $F783
-word_1487DC:	dc.w 4			
-					
-		dc.w $793
-		dc.w $7794
-		dc.w $79C
-		dc.w $779D
-word_1487E6:	dc.w 4			
-					
-		dc.w $17A5
-		dc.w $27A7
-		dc.w $87AA
-		dc.w $37B3
-word_1487F0:	dc.w 2			
-					
-		dc.w $17B7
-		dc.w $B7B9
-word_1487F6:	dc.w 3			
-					
-		dc.w $17C5
-		dc.w $77C7
-		dc.w $17CF
-word_1487FE:	dc.w 3			
-					
-		dc.w $7D1
-		dc.w $87D2
-		dc.w $17DB
-word_148806:	dc.w 2			
-					
-		dc.w $F7DD
-		dc.w $7ED
-word_14880C:	dc.w 4			
-					
-		dc.w $2800
-		dc.w $7803
-		dc.w $280B
-		dc.w $280E
-word_148816:	dc.w 3			
-					
-		dc.w $2811
-		dc.w $7814
-		dc.w $581C
-word_14881E:	dc.w 2			
-					
-		dc.w $B822
-		dc.w $382E
-word_148824:	dc.w 2			
-					
-		dc.w $B832
-		dc.w $283E
-word_14882A:	dc.w 4			
-					
-		dc.w $2841
-		dc.w $3844
-		dc.w $2848
-		dc.w $784B
-word_148834:	dc.w 3			
-					
-		dc.w $8853
-		dc.w $385C
-		dc.w $2860
-word_14883C:	dc.w 2			
-					
-		dc.w $B863
-		dc.w $286F
-word_148842:	dc.w 3			
-					
-		dc.w $8872
-		dc.w $587B
-		dc.w $881
-word_14884A:	dc.w 1			
-					
-		dc.w $B882
-word_14884E:	dc.w 2			
-					
-		dc.w $B88E
-		dc.w $289A
-word_148854:	dc.w 3			
-					
-		dc.w $389D
-		dc.w $B8A1
-		dc.w $8AD
-word_14885C:	dc.w 1			
-					
-		dc.w $B8AE
-word_148860:	dc.w 2			
-					
-		dc.w $8BA
-		dc.w $B8BB
-word_148866:	dc.w 2			
-					
-		dc.w $88C7
-		dc.w $58D0
-word_14886C:	dc.w 3			
-					
-		dc.w $88D6
-		dc.w $38DF
-		dc.w $28E3
-word_148874:	dc.w 1			
-					
-		dc.w $B8E6
-word_148878:	dc.w 2			
-					
-		dc.w $B8F2
-		dc.w $28FE
-word_14887E:	dc.w 3			
-					
-		dc.w $2901
-		dc.w $1904
-		dc.w $B906
-word_148886:	dc.w 1			
-					
-		dc.w $B912
-word_14888A:	dc.w 2			
-					
-		dc.w $91E
-		dc.w $B91F
-word_148890:	dc.w 2			
-					
-		dc.w $B92B
-		dc.w $2937
-word_148896:	dc.w 4			
-					
-		dc.w $193A
-		dc.w $393C
-		dc.w $5940
-		dc.w $1946
-word_1488A0:	dc.w 3			
-					
-		dc.w $948
-		dc.w $7949
-		dc.w $2951
-word_1488A8:	dc.w 3			
-					
-		dc.w $954
-		dc.w $7955
-		dc.w $295D
-word_1488B0:	dc.w 2			
-					
-		dc.w $5960
-		dc.w $B966
-word_1488B6:	dc.w 3			
-					
-		dc.w $972
-		dc.w $8973
-		dc.w $397C
-word_1488BE:	dc.w 3			
-					
-		dc.w $1980
-		dc.w $5982
-		dc.w $3988
-word_1488C6:	dc.w 3			
-					
-		dc.w $598C
-		dc.w $3992
-		dc.w $1996
-word_1488CE:	dc.w 2			
-					
-		dc.w $998
-		dc.w $B999
-word_1488D4:	dc.w 4			
-					
-		dc.w $19A5
-		dc.w $9A7
-		dc.w $9A8
-		dc.w $B9A9
-word_1488DE:	dc.w 3			
-					
-		dc.w $19B5
-		dc.w $B9B7
-		dc.w $29C3
-word_1488E6:	dc.w 3			
-					
-		dc.w $19C6
-		dc.w $79C8
-		dc.w $29D0
-word_1488EE:	dc.w 2			
-					
-		dc.w $9D3
-		dc.w $89D4
-word_1488F4:	dc.w 3			
-					
-		dc.w $29DD
-		dc.w $79E0
-		dc.w $29E8
-word_1488FC:	dc.w 1			
-					
-		dc.w $B9EB
-word_148900:	dc.w 4			
-					
-		dc.w $39F7
-		dc.w $29FB
-		dc.w $79FE
-		dc.w $7A06
-word_14890A:	dc.w 4			
-					
-		dc.w $1A0E
-		dc.w $BA10
-		dc.w $5A1C
-		dc.w $2A22
-word_148914:	dc.w 3			
-					
-		dc.w $2A25
-		dc.w $BA28
-		dc.w $7A34
-word_14891C:	dc.w 4			
-					
-		dc.w $2A3C
-		dc.w $1A3F
-		dc.w $1A41
-		dc.w $FA43
-word_148926:	dc.w 4			
-					
-		dc.w $39F7
-		dc.w $29FB
-		dc.w $79FE
-		dc.w $7A06
-word_148930:	dc.w 4			
-					
-		dc.w $1A0E
-		dc.w $BA10
-		dc.w $5A1C
-		dc.w $2A22
-word_14893A:	dc.w 3			
-					
-		dc.w $2A25
-		dc.w $BA28
-		dc.w $7A34
-word_148942:	dc.w 4			
-					
-		dc.w $2A3C
-		dc.w $1A3F
-		dc.w $1A41
-		dc.w $FA43
-word_14894C:	dc.w 4			
-					
-		dc.w $BA53
-		dc.w $A5F
-		dc.w $1A60
-		dc.w $5A62
-word_148956:	dc.w 4			
-					
-		dc.w $3A68
-		dc.w $7A6C
-		dc.w $3A74
-		dc.w $2A78
-word_148960:	dc.w 3			
-					
-		dc.w $2A7B
-		dc.w $3A7E
-		dc.w $BA82
-word_148968:	dc.w 4			
-					
-		dc.w $A8E
-		dc.w $7A8F
-		dc.w $2A97
-		dc.w $5A9A
-word_148972:	dc.w 3			
-					
-		dc.w $BAA0
-		dc.w $5AAC
-		dc.w $1AB2
-word_14897A:	dc.w 2			
-					
-		dc.w $BAB4
-		dc.w $5AC0
-word_148980:	dc.w 3			
-					
-		dc.w $2AC6
-		dc.w $7AC9
-		dc.w $2AD1
-word_148988:	dc.w 2			
-					
-		dc.w $BAD4
-		dc.w $2AE0
-word_14898E:	dc.w 2			
-					
-		dc.w $BAE3
-		dc.w $2AE0
-word_148994:	dc.w 2			
-					
-		dc.w $BAEF
-		dc.w $2AE0
-word_14899A:	dc.w 2			
-					
-		dc.w $BAFB
-		dc.w $2AE0
-word_1489A0:	dc.w 2			
-					
-		dc.w $BB07
-		dc.w $2AE0
-word_1489A6:	dc.w 3			
-					
-		dc.w $BB13
-		dc.w $2B1F
-		dc.w $2B22
-word_1489AE:	dc.w 3			
-					
-		dc.w $BB25
-		dc.w $2B1F
-		dc.w $2B22
-word_1489B6:	dc.w 2			
-					
-		dc.w $B7EF
-		dc.w $37FB
-word_1489BC:	dc.w 3			
-					
-		dc.w $3B31
-		dc.w $3B35
-		dc.w $8B39
-word_1489C4:	dc.w 4			
-					
-		dc.w $5B42
-		dc.w $3B48
-		dc.w $2B4C
-		dc.w $5B4F
-word_1489CE:	dc.w 4			
-					
-		dc.w $5B55
-		dc.w $3B5B
-		dc.w $2B5F
-		dc.w $7B62
-word_1489D8:	dc.w 4			
-					
-		dc.w $2B6A
-		dc.w $BB6D
-		dc.w $B79
-		dc.w $1B7A
-word_1489E2:	dc.w 2			
-					
-		dc.w $2B6A
-		dc.w $BB7C
-word_1489E8:	dc.w 5			
-					
-		dc.w $7B88
-		dc.w $1B93
-		dc.w $5B95
-		dc.w $3B9B
-		dc.w $2B9F
-word_1489F4:	dc.w 5			
-					
-		dc.w $2B90
-		dc.w $1B93
-		dc.w $5B95
-		dc.w $3B9B
-		dc.w $2B9F
-word_148A00:	dc.w 1			
-					
-		dc.w $FBA2
-word_148A04:	dc.w 1			
-					
-		dc.w $FBB2
-word_148A08:	dc.w 1			
-					
-		dc.w $FBC2
-word_148A0C:	dc.w 1			
-					
-		dc.w $FBD2
-word_148A10:	dc.w 1			
-					
-		dc.w $FBE2
-word_148A14:	dc.w 2			
-		dc.w $BF2
-		dc.w $BBF3
-word_148A1A:	dc.w 2			
-		dc.w $BFF
-		dc.w $BC00
-word_148A20:	dc.w 4			
-					
-		dc.w $8C0C
-		dc.w $1C15
-		dc.w $3C17
-		dc.w $2C1B
-word_148A2A:	dc.w 4			
-					
-		dc.w $8C0C
-		dc.w $1C1E
-		dc.w $3C20
-		dc.w $2C24
-word_148A34:	dc.w 4			
-					
-		dc.w $2C27
-		dc.w $7C2A
-		dc.w $2C32
-		dc.w $1C35
-word_148A3E:	dc.w 3			
-					
-		dc.w $2C37
-		dc.w $BC3A
-		dc.w $2C46
-word_148A46:	dc.w 3			
-		dc.w $7C49
-		dc.w $C51
-		dc.w $8C52
-word_148A4E:	dc.w 4			
-		dc.w $C5B
-		dc.w $BC5C
-		dc.w $C68
-		dc.w $5C69
-word_148A58:	dc.w 3			
-		dc.w $C6F
-		dc.w $FC70
-		dc.w $2C80
-word_148A60:	dc.w 4			
-		dc.w $2C83
-		dc.w $BC86
-		dc.w $1C92
-		dc.w $2C94
-word_148A6A:	dc.w 3			
-		dc.w $FC97
-		dc.w $CA7
-		dc.w $2CA8
-word_148A72:	dc.w 4			
-		dc.w $2C83
-		dc.w $BCAB
-		dc.w $1CB7
-		dc.w $2CB9
-word_148A7C:	dc.w 3			
-					
-		dc.w $2CBC
-		dc.w $FCBF
-		dc.w $CCF
-word_148A84:	dc.w 3			
-					
-		dc.w $2CD0
-		dc.w $FCD3
-		dc.w $CCF
-word_148A8C:	dc.w 3			
-					
-		dc.w $1CE3
-		dc.w $FCE5
-		dc.w $CCF
-word_148A94:	dc.w 3			
-					
-		dc.w $BCF5
-		dc.w $D01
-		dc.w $5D02
-word_148A9C:	dc.w 3			
-					
-		dc.w $BD08
-		dc.w $D14
-		dc.w $5D15
-word_148AA4:	dc.w 4			
-					
-		dc.w $FD1B
-		dc.w $D2B
-		dc.w $1D2C
-		dc.w $1D2E
-word_148AAE:	dc.w 4			
-					
-		dc.w $2D30
-		dc.w $7D33
-		dc.w $1D3B
-		dc.w $2D3D
-word_148AB8:	dc.w 4			
-					
-		dc.w $2D30
-		dc.w $7D40
-		dc.w $1D3B
-		dc.w $2D3D
-word_148AC2:	dc.w 4			
-					
-		dc.w $2D48
-		dc.w $3D4B
-		dc.w $7D4F
-		dc.w $2D3D
-word_148ACC:	dc.w 2			
-					
-		dc.w $7D76
-		dc.w $8D7E
-word_148AD2:	dc.w 3			
-					
-		dc.w $2D87
-		dc.w $7D8A
-		dc.w $5D92
-word_148ADA:	dc.w 3			
-					
-		dc.w $2D87
-		dc.w $7D98
-		dc.w $5D92
-word_148AE2:	dc.w 3			
-					
-		dc.w $2D87
-		dc.w $7DA0
-		dc.w $5D92
-word_148AEA:	dc.w 3			
-					
-		dc.w $BDA8
-		dc.w $2DB4
-		dc.w $3DB7
-word_148AF2:	dc.w 3			
-					
-		dc.w $BDBB
-		dc.w $2DC7
-		dc.w $3DCA
-word_148AFA:	dc.w 3			
-		dc.w $1DCE
-		dc.w $8DD0
-		dc.w $3DD9
-word_148B02:	dc.w 3			
-		dc.w $1DCE
-		dc.w $8DDD
-		dc.w $1DE6
-word_148B0A:	dc.w 3			
-		dc.w $1DCE
-		dc.w $5DE8
-		dc.w $7DEE
-word_148B12:	dc.w 3			
-		dc.w $1DCE
-		dc.w $8DF6
-		dc.w $1DFF
-word_148B1A:	dc.w 4			
-		dc.w $8E01
-		dc.w $2811
-		dc.w $3E0A
-		dc.w $815
-word_148B24:	dc.w 3			
-		dc.w $2E0E
-		dc.w $7E11
-		dc.w $5E19
-word_148B2C:	dc.w 4			
-		dc.w $2E1F
-		dc.w $7E22
-		dc.w $2E2A
-		dc.w $2E2D
-word_148B36:	dc.w 4			
-		dc.w $2D87
-		dc.w $7E30
-		dc.w $2E2A
-		dc.w $2E2D
-word_148B40:	dc.w 4			
-		dc.w $2D87
-		dc.w $7E30
-		dc.w $2E2A
-		dc.w $2E38
-word_148B4A:	dc.w 4			
-		dc.w $2D87
-		dc.w $7E3B
-		dc.w $2E2A
-		dc.w $2E2D
-word_148B54:	dc.w 4			
-		dc.w $2D87
-		dc.w $7E3B
-		dc.w $2E2A
-		dc.w $2E38
-word_148B5E:	dc.w 2			
-		dc.w $BE43
-		dc.w $3E4F
-word_148B64:	dc.w 4			
-		dc.w $2E53
-		dc.w $7E56
-		dc.w $2E5E
-		dc.w $3E4F
-word_148B6E:	dc.w 4			
-					
-		dc.w $2E61
-		dc.w $7E64
-		dc.w $2E6C
-		dc.w $2E6F
-word_148B78:	dc.w 4			
-					
-		dc.w $2E72
-		dc.w $3E75
-		dc.w $3E79
-		dc.w $5E7D
-word_148B82:	dc.w 3			
-		dc.w $BE83
-		dc.w $2E8F
-		dc.w $2E6F
-word_148B8A:	dc.w 4			
-		dc.w $2E92
-		dc.w $7E95
-		dc.w $2E9D
-		dc.w $2EA0
-word_148B94:	dc.w 4			
-		dc.w $2EA3
-		dc.w $3EA6
-		dc.w $5EAA
-		dc.w $2E6F
-word_148B9E:	dc.w 3			
-					
-		dc.w $8EB0
-		dc.w $1EB9
-		dc.w $2EBB
-word_148BA6:	dc.w 3			
-					
-		dc.w $5EBE
-		dc.w $3EC4
-		dc.w $EC8
-word_148BAE:	dc.w 2			
-					
-		dc.w $5EC9
-		dc.w $3ECF
-word_148BB4:	dc.w 2			
-					
-		dc.w $BED3
-		dc.w $EDF
-word_148BBA:	dc.w 2			
-					
-		dc.w $5EE0
-		dc.w $3EE6
-word_148BC0:	dc.w 3			
-					
-		dc.w $BB13
-		dc.w $2B1F
-		dc.w $2B22
-word_148BC8:	dc.w 3			
-					
-		dc.w $BB25
-		dc.w $2B1F
-		dc.w $2B22
-word_148BD0:	dc.w 3			
-					
-		dc.w $BB13
-		dc.w $2B1F
-		dc.w $2B22
-word_148BD8:	dc.w 3			
-					
-		dc.w $BB25
-		dc.w $2B1F
-		dc.w $2B22
-word_148BE0:	dc.w 4			
-					
-		dc.w $BD57
-		dc.w $D63
-		dc.w $3D64
-		dc.w $2D68
-word_148BEA:	dc.w 3			
-					
-		dc.w $5000
-		dc.w $7006
-		dc.w $100E
-word_148BF2:	dc.w 1			
-					
-		dc.w $B010
-word_148BF6:	dc.w 2			
-					
-		dc.w $B01C
-		dc.w $2028
-word_148BFC:	dc.w 4			
-					
-		dc.w $502B
-		dc.w $3031
-		dc.w $2035
-		dc.w $1038
-word_148C06:	dc.w 4			
-					
-		dc.w $B03A
-		dc.w $3046
-		dc.w $204A
-		dc.w $104D
-word_148C10:	dc.w 4			
-					
-		dc.w $504F
-		dc.w $7055
-		dc.w $105D
-		dc.w $205F
-word_148C1A:	dc.w 4			
-					
-		dc.w $5062
-		dc.w $3068
-		dc.w $206C
-		dc.w $506F
-word_148C24:	dc.w 3			
-					
-		dc.w $B075
-		dc.w $1081
-		dc.w $2083
-word_148C2C:	dc.w 2			
-					
-		dc.w $B086
-		dc.w $5092
-word_148C32:	dc.w 4			
-					
-		dc.w $5098
-		dc.w $309E
-		dc.w $20A2
-		dc.w $50A5
-word_148C3C:	dc.w 3			
-					
-		dc.w $30AB
-		dc.w $80AF
-		dc.w $50B8
-word_148C44:	dc.w 2			
-					
-		dc.w $B0BE
-		dc.w $50CA
-word_148C4A:	dc.w 4			
-					
-		dc.w $50D0
-		dc.w $30D6
-		dc.w $20DA
-		dc.w $70DD
-word_148C54:	dc.w 3			
-					
-		dc.w $10E5
-		dc.w $F0E7
-		dc.w $50F7
-word_148C5C:	dc.w 3			
-					
-		dc.w $50FD
-		dc.w $7103
-		dc.w $510B
-word_148C64:	dc.w 4			
-					
-		dc.w $1111
-		dc.w $7113
-		dc.w $311B
-		dc.w $311F
-word_148C6E:	dc.w 2			
-					
-		dc.w $F123
-		dc.w $2133
-word_148C74:	dc.w 3			
-					
-		dc.w $B136
-		dc.w $2142
-		dc.w $1145
-word_148C7C:	dc.w 2			
-					
-		dc.w $B147
-		dc.w $2153
-word_148C82:	dc.w 2			
-					
-		dc.w $B156
-		dc.w $162
-word_148C88:	dc.w 2			
-					
-		dc.w $B163
-		dc.w $216F
-word_148C8E:	dc.w 4			
-					
-		dc.w $7172
-		dc.w $217A
-		dc.w $317D
-		dc.w $2181
-word_148C98:	dc.w 3			
-					
-		dc.w $2184
-		dc.w $B187
-		dc.w $2193
-word_148CA0:	dc.w 2			
-					
-		dc.w $F196
-		dc.w $21A6
-word_148CA6:	dc.w 2			
-					
-		dc.w $B1A9
-		dc.w $11B5
-word_148CAC:	dc.w 3			
-					
-		dc.w $81B7
-		dc.w $11C0
-		dc.w $21C2
-word_148CB4:	dc.w 2			
-					
-		dc.w $B1C5
-		dc.w $11D1
-word_148CBA:	dc.w 2			
-					
-		dc.w $B1D3
-		dc.w $51DF
-word_148CC0:	dc.w 0			
-word_148CC2:	dc.w 3			
-		dc.w $800E
-		dc.w $5008
-		dc.w $B075
-word_148CCA:	dc.w 3			
-		dc.w $B017
-		dc.w $1023
-		dc.w $B081
-word_148CD2:	dc.w 3			
-		dc.w $708D
-		dc.w $8025
-		dc.w $2095
-word_148CDA:	dc.w 3			
-		dc.w $B035
-		dc.w $5098
-		dc.w $309E
-word_148CE2:	dc.w 4			
-		dc.w $B047
-		dc.w $1053
-		dc.w $30A2
-		dc.w $50A6
-word_148CEC:	dc.w 4			
-		dc.w $B055
-		dc.w $1061
-		dc.w $309E
-		dc.w $5098
-word_148CF6:	dc.w 3			
-		dc.w $8063
-		dc.w $20AC
-		dc.w $708D
-word_148CFE:	dc.w 2			
-		dc.w $806C
-		dc.w $B081
-word_148D04:	dc.w 4			
-		dc.w $B0AF
-		dc.w $116B
-		dc.w $B16D
-		dc.w $5179
-word_148D0E:	dc.w 4			
-		dc.w $B0C8
-		dc.w $117F
-		dc.w $8181
-		dc.w $718A
-word_148D18:	dc.w 4			
-		dc.w $80E0
-		dc.w $7192
-		dc.w $19A
-		dc.w $119B
-word_148D22:	dc.w 4			
-		dc.w $B0F3
-		dc.w $B19D
-		dc.w $1A9
-		dc.w $31AA
-word_148D2C:	dc.w 4			
-		dc.w $B10A
-		dc.w $81AE
-		dc.w $51B7
-		dc.w $51BD
-word_148D36:	dc.w 4			
-		dc.w $F126
-		dc.w $71C3
-		dc.w $21CB
-		dc.w $31CE
-word_148D40:	dc.w 4			
-		dc.w $8143
-		dc.w $51D2
-		dc.w $81D8
-		dc.w $11E1
-word_148D4A:	dc.w 4			
-		dc.w $8157
-		dc.w $71E3
-		dc.w $1EB
-		dc.w $21EC
-word_148D54:	dc.w 3			
-		dc.w $51EF
-		dc.w $81F5
-		dc.w $B275
-word_148D5C:	dc.w 3			
-		dc.w $1281
-		dc.w $B283
-		dc.w $B28F
-word_148D64:	dc.w 3			
-		dc.w $829B
-		dc.w $82A4
-		dc.w $12AD
-word_148D6C:	dc.w 3			
-		dc.w $B22C
-		dc.w $82AF
-		dc.w $2B8
-word_148D74:	dc.w 4			
-		dc.w $B242
-		dc.w $1240
-		dc.w $82B9
-		dc.w $2C2
-word_148D7E:	dc.w 4			
-		dc.w $B2C3
-		dc.w $12CF
-		dc.w $82AF
-		dc.w $2B8
-word_148D88:	dc.w 3			
-		dc.w $82D1
-		dc.w $82DA
-		dc.w $12AD
-word_148D90:	dc.w 2			
-		dc.w $826C
-		dc.w $B28F
-word_148D96:	dc.w 4			
-		dc.w $B2E3
-		dc.w $539E
-		dc.w $B3A4
-		dc.w $3B0
-word_148DA0:	dc.w 4			
-		dc.w $B2FC
-		dc.w $73B1
-		dc.w $73B9
-		dc.w $13C1
-word_148DAA:	dc.w 4			
-		dc.w $8314
-		dc.w $3C3
-		dc.w $13C4
-		dc.w $83C6
-word_148DB4:	dc.w 4			
-		dc.w $B327
-		dc.w $33CF
-		dc.w $B3D3
-		dc.w $33A
-word_148DBE:	dc.w 4			
-		dc.w $B33E
-		dc.w $53DF
-		dc.w $83E5
-		dc.w $53EE
-word_148DC8:	dc.w 4			
-		dc.w $F359
-		dc.w $33F4
-		dc.w $3F8
-		dc.w $B3F9
-word_148DD2:	dc.w 4			
-		dc.w $8376
-		dc.w $3405
-		dc.w $B409
-		dc.w $386
-word_148DDC:	dc.w 4			
-		dc.w $838A
-		dc.w $3415
-		dc.w $5419
-		dc.w $141F
-word_148DE6:	dc.w 4			
-		dc.w $7467
-		dc.w $246F
-		dc.w $5472
-		dc.w $1478
-word_148DF0:	dc.w 4			
-		dc.w $747A
-		dc.w $2482
-		dc.w $5485
-		dc.w $1478
-word_148DFA:	dc.w 4			
-		dc.w $14D6
-		dc.w $74D8
-		dc.w $4E0
-		dc.w $B4E1
-word_148E04:	dc.w 4			
-		dc.w $14ED
-		dc.w $74EF
-		dc.w $4F7
-		dc.w $B4F8
-word_148E0E:	dc.w 4			
-		dc.w $B54A
-		dc.w $1556
-		dc.w $558
-		dc.w $3559
-word_148E18:	dc.w 4			
-		dc.w $B55D
-		dc.w $1569
-		dc.w $56B
-		dc.w $356C
-word_148E22:	dc.w 4			
-		dc.w $35BB
-		dc.w $75BF
-		dc.w $55C7
-		dc.w $35CD
-word_148E2C:	dc.w 4			
-		dc.w $25D1
-		dc.w $75D4
-		dc.w $55DC
-		dc.w $35E2
-word_148E36:	dc.w 2			
-		dc.w $FFC3
-		dc.w $FD3
-word_148E3C:	dc.w 4			
-		dc.w $3EEA
-		dc.w $3EEE
-		dc.w $7EF2
-		dc.w $5EFA
-word_148E46:	dc.w 4			
-		dc.w $3EEA
-		dc.w $3EEE
-		dc.w $7F00
-		dc.w $5F08
-word_148E50:	dc.w 4			
-		dc.w $3EEA
-		dc.w $3EEE
-		dc.w $7F0E
-		dc.w $5F16
-word_148E5A:	dc.w 3			
-		dc.w $2F6E
-		dc.w $FF71
-		dc.w $3F81
-word_148E62:	dc.w 3			
-		dc.w $2F85
-		dc.w $FF88
-		dc.w $2F98
-word_148E6A:	dc.w 3			
-		dc.w $F9B
-		dc.w $FF9C
-		dc.w $3FAC
-word_148E72:	dc.w 3			
-		dc.w $2F85
-		dc.w $FFB0
-		dc.w $2FC0
-word_148E7A:	dc.w 4			
-		dc.w $8E01
-		dc.w $7FD4
-		dc.w $2FDC
-		dc.w $FDF
-word_148E84:	dc.w 4			
-		dc.w $8E01
-		dc.w $7FE0
-		dc.w $2FE8
-		dc.w $FEB
-		dc.w 3
-		dc.w $8E01
-		dc.w $BFEC
-		dc.w $FF8
-word_148E96:	dc.w 1			
-					
-		dc.w $BF1C
-word_148E9A:	dc.w 3			
-					
-		dc.w $5F28
-		dc.w $7F2E
-		dc.w $5F36
-word_148EA2:	dc.w 2			
-					
-		dc.w $FF3C
-		dc.w $5F4C
-word_148EA8:	dc.w 3			
-					
-		dc.w $8F52
-		dc.w $3F5B
-		dc.w $5F5F
-word_148EB0:	dc.w 3			
-					
-		dc.w $8F65
-		dc.w $3F5B
-		dc.w $5F5F
+SonicPLC:
+SonicPLC_0: 	dc.w SonicPLC_1F6-SonicPLC
+SonicPLC_2: 	dc.w SonicPLC_1F8-SonicPLC
+SonicPLC_4: 	dc.w SonicPLC_1FE-SonicPLC
+SonicPLC_6: 	dc.w SonicPLC_204-SonicPLC
+SonicPLC_8: 	dc.w SonicPLC_208-SonicPLC
+SonicPLC_A: 	dc.w SonicPLC_20E-SonicPLC
+SonicPLC_C: 	dc.w SonicPLC_214-SonicPLC
+SonicPLC_E: 	dc.w SonicPLC_21A-SonicPLC
+SonicPLC_10: 	dc.w SonicPLC_220-SonicPLC
+SonicPLC_12: 	dc.w SonicPLC_226-SonicPLC
+SonicPLC_14: 	dc.w SonicPLC_22C-SonicPLC
+SonicPLC_16: 	dc.w SonicPLC_232-SonicPLC
+SonicPLC_18: 	dc.w SonicPLC_238-SonicPLC
+SonicPLC_1A: 	dc.w SonicPLC_23E-SonicPLC
+SonicPLC_1C: 	dc.w SonicPLC_244-SonicPLC
+SonicPLC_1E: 	dc.w SonicPLC_24A-SonicPLC
+SonicPLC_20: 	dc.w SonicPLC_250-SonicPLC
+SonicPLC_22: 	dc.w SonicPLC_256-SonicPLC
+SonicPLC_24: 	dc.w SonicPLC_25C-SonicPLC
+SonicPLC_26: 	dc.w SonicPLC_262-SonicPLC
+SonicPLC_28: 	dc.w SonicPLC_266-SonicPLC
+SonicPLC_2A: 	dc.w SonicPLC_26C-SonicPLC
+SonicPLC_2C: 	dc.w SonicPLC_272-SonicPLC
+SonicPLC_2E: 	dc.w SonicPLC_278-SonicPLC
+SonicPLC_30: 	dc.w SonicPLC_27E-SonicPLC
+SonicPLC_32: 	dc.w SonicPLC_284-SonicPLC
+SonicPLC_34: 	dc.w SonicPLC_28A-SonicPLC
+SonicPLC_36: 	dc.w SonicPLC_290-SonicPLC
+SonicPLC_38: 	dc.w SonicPLC_296-SonicPLC
+SonicPLC_3A: 	dc.w SonicPLC_29C-SonicPLC
+SonicPLC_3C: 	dc.w SonicPLC_2A2-SonicPLC
+SonicPLC_3E: 	dc.w SonicPLC_2A8-SonicPLC
+SonicPLC_40: 	dc.w SonicPLC_2AE-SonicPLC
+SonicPLC_42: 	dc.w SonicPLC_2B4-SonicPLC
+SonicPLC_44: 	dc.w SonicPLC_2BA-SonicPLC
+SonicPLC_46: 	dc.w SonicPLC_2C0-SonicPLC
+SonicPLC_48: 	dc.w SonicPLC_2C6-SonicPLC
+SonicPLC_4A: 	dc.w SonicPLC_2CC-SonicPLC
+SonicPLC_4C: 	dc.w SonicPLC_2D2-SonicPLC
+SonicPLC_4E: 	dc.w SonicPLC_2D8-SonicPLC
+SonicPLC_50: 	dc.w SonicPLC_2DE-SonicPLC
+SonicPLC_52: 	dc.w SonicPLC_2E4-SonicPLC
+SonicPLC_54: 	dc.w SonicPLC_2EA-SonicPLC
+SonicPLC_56: 	dc.w SonicPLC_2F0-SonicPLC
+SonicPLC_58: 	dc.w SonicPLC_2F6-SonicPLC
+SonicPLC_5A: 	dc.w SonicPLC_2FC-SonicPLC
+SonicPLC_5C: 	dc.w SonicPLC_302-SonicPLC
+SonicPLC_5E: 	dc.w SonicPLC_308-SonicPLC
+SonicPLC_60: 	dc.w SonicPLC_30E-SonicPLC
+SonicPLC_62: 	dc.w SonicPLC_314-SonicPLC
+SonicPLC_64: 	dc.w SonicPLC_31A-SonicPLC
+SonicPLC_66: 	dc.w SonicPLC_31E-SonicPLC
+SonicPLC_68: 	dc.w SonicPLC_322-SonicPLC
+SonicPLC_6A: 	dc.w SonicPLC_326-SonicPLC
+SonicPLC_6C: 	dc.w SonicPLC_32A-SonicPLC
+SonicPLC_6E: 	dc.w SonicPLC_32E-SonicPLC
+SonicPLC_70: 	dc.w SonicPLC_334-SonicPLC
+SonicPLC_72: 	dc.w SonicPLC_338-SonicPLC
+SonicPLC_74: 	dc.w SonicPLC_33C-SonicPLC
+SonicPLC_76: 	dc.w SonicPLC_340-SonicPLC
+SonicPLC_78: 	dc.w SonicPLC_344-SonicPLC
+SonicPLC_7A: 	dc.w SonicPLC_348-SonicPLC
+SonicPLC_7C: 	dc.w SonicPLC_34C-SonicPLC
+SonicPLC_7E: 	dc.w SonicPLC_350-SonicPLC
+SonicPLC_80: 	dc.w SonicPLC_354-SonicPLC
+SonicPLC_82: 	dc.w SonicPLC_358-SonicPLC
+SonicPLC_84: 	dc.w SonicPLC_35C-SonicPLC
+SonicPLC_86: 	dc.w SonicPLC_360-SonicPLC
+SonicPLC_88: 	dc.w SonicPLC_364-SonicPLC
+SonicPLC_8A: 	dc.w SonicPLC_368-SonicPLC
+SonicPLC_8C: 	dc.w SonicPLC_36C-SonicPLC
+SonicPLC_8E: 	dc.w SonicPLC_370-SonicPLC
+SonicPLC_90: 	dc.w SonicPLC_374-SonicPLC
+SonicPLC_92: 	dc.w SonicPLC_37A-SonicPLC
+SonicPLC_94: 	dc.w SonicPLC_380-SonicPLC
+SonicPLC_96: 	dc.w SonicPLC_386-SonicPLC
+SonicPLC_98: 	dc.w SonicPLC_38A-SonicPLC
+SonicPLC_9A: 	dc.w SonicPLC_38E-SonicPLC
+SonicPLC_9C: 	dc.w SonicPLC_392-SonicPLC
+SonicPLC_9E: 	dc.w SonicPLC_396-SonicPLC
+SonicPLC_A0: 	dc.w SonicPLC_39C-SonicPLC
+SonicPLC_A2: 	dc.w SonicPLC_3A2-SonicPLC
+SonicPLC_A4: 	dc.w SonicPLC_3A6-SonicPLC
+SonicPLC_A6: 	dc.w SonicPLC_3AA-SonicPLC
+SonicPLC_A8: 	dc.w SonicPLC_3AE-SonicPLC
+SonicPLC_AA: 	dc.w SonicPLC_3B4-SonicPLC
+SonicPLC_AC: 	dc.w SonicPLC_3BA-SonicPLC
+SonicPLC_AE: 	dc.w SonicPLC_3C0-SonicPLC
+SonicPLC_B0: 	dc.w SonicPLC_3C4-SonicPLC
+SonicPLC_B2: 	dc.w SonicPLC_3C8-SonicPLC
+SonicPLC_B4: 	dc.w SonicPLC_3CE-SonicPLC
+SonicPLC_B6: 	dc.w SonicPLC_3D2-SonicPLC
+SonicPLC_B8: 	dc.w SonicPLC_3D6-SonicPLC
+SonicPLC_BA: 	dc.w SonicPLC_3DA-SonicPLC
+SonicPLC_BC: 	dc.w SonicPLC_3DE-SonicPLC
+SonicPLC_BE: 	dc.w SonicPLC_3E2-SonicPLC
+SonicPLC_C0: 	dc.w SonicPLC_3E8-SonicPLC
+SonicPLC_C2: 	dc.w SonicPLC_3EC-SonicPLC
+SonicPLC_C4: 	dc.w SonicPLC_3F0-SonicPLC
+SonicPLC_C6: 	dc.w SonicPLC_3F4-SonicPLC
+SonicPLC_C8: 	dc.w SonicPLC_3F8-SonicPLC
+SonicPLC_CA: 	dc.w SonicPLC_3FC-SonicPLC
+SonicPLC_CC: 	dc.w SonicPLC_400-SonicPLC
+SonicPLC_CE: 	dc.w SonicPLC_406-SonicPLC
+SonicPLC_D0: 	dc.w SonicPLC_40A-SonicPLC
+SonicPLC_D2: 	dc.w SonicPLC_40E-SonicPLC
+SonicPLC_D4: 	dc.w SonicPLC_412-SonicPLC
+SonicPLC_D6: 	dc.w SonicPLC_416-SonicPLC
+SonicPLC_D8: 	dc.w SonicPLC_41A-SonicPLC
+SonicPLC_DA: 	dc.w SonicPLC_41E-SonicPLC
+SonicPLC_DC: 	dc.w SonicPLC_424-SonicPLC
+SonicPLC_DE: 	dc.w SonicPLC_428-SonicPLC
+SonicPLC_E0: 	dc.w SonicPLC_42C-SonicPLC
+SonicPLC_E2: 	dc.w SonicPLC_430-SonicPLC
+SonicPLC_E4: 	dc.w SonicPLC_434-SonicPLC
+SonicPLC_E6: 	dc.w SonicPLC_438-SonicPLC
+SonicPLC_E8: 	dc.w SonicPLC_43E-SonicPLC
+SonicPLC_EA: 	dc.w SonicPLC_442-SonicPLC
+SonicPLC_EC: 	dc.w SonicPLC_446-SonicPLC
+SonicPLC_EE: 	dc.w SonicPLC_44A-SonicPLC
+SonicPLC_F0: 	dc.w SonicPLC_44E-SonicPLC
+SonicPLC_F2: 	dc.w SonicPLC_454-SonicPLC
+SonicPLC_F4: 	dc.w SonicPLC_45A-SonicPLC
+SonicPLC_F6: 	dc.w SonicPLC_460-SonicPLC
+SonicPLC_F8: 	dc.w SonicPLC_466-SonicPLC
+SonicPLC_FA: 	dc.w SonicPLC_46C-SonicPLC
+SonicPLC_FC: 	dc.w SonicPLC_472-SonicPLC
+SonicPLC_FE: 	dc.w SonicPLC_478-SonicPLC
+SonicPLC_100: 	dc.w SonicPLC_47E-SonicPLC
+SonicPLC_102: 	dc.w SonicPLC_484-SonicPLC
+SonicPLC_104: 	dc.w SonicPLC_48A-SonicPLC
+SonicPLC_106: 	dc.w SonicPLC_490-SonicPLC
+SonicPLC_108: 	dc.w SonicPLC_496-SonicPLC
+SonicPLC_10A: 	dc.w SonicPLC_49C-SonicPLC
+SonicPLC_10C: 	dc.w SonicPLC_4A2-SonicPLC
+SonicPLC_10E: 	dc.w SonicPLC_4A6-SonicPLC
+SonicPLC_110: 	dc.w SonicPLC_4AA-SonicPLC
+SonicPLC_112: 	dc.w SonicPLC_4B0-SonicPLC
+SonicPLC_114: 	dc.w SonicPLC_4B6-SonicPLC
+SonicPLC_116: 	dc.w SonicPLC_4BC-SonicPLC
+SonicPLC_118: 	dc.w SonicPLC_4C2-SonicPLC
+SonicPLC_11A: 	dc.w SonicPLC_4C8-SonicPLC
+SonicPLC_11C: 	dc.w SonicPLC_4CE-SonicPLC
+SonicPLC_11E: 	dc.w SonicPLC_4D2-SonicPLC
+SonicPLC_120: 	dc.w SonicPLC_4D8-SonicPLC
+SonicPLC_122: 	dc.w SonicPLC_4DE-SonicPLC
+SonicPLC_124: 	dc.w SonicPLC_4E4-SonicPLC
+SonicPLC_126: 	dc.w SonicPLC_4EA-SonicPLC
+SonicPLC_128: 	dc.w SonicPLC_4F0-SonicPLC
+SonicPLC_12A: 	dc.w SonicPLC_4F6-SonicPLC
+SonicPLC_12C: 	dc.w SonicPLC_4FC-SonicPLC
+SonicPLC_12E: 	dc.w SonicPLC_500-SonicPLC
+SonicPLC_130: 	dc.w SonicPLC_504-SonicPLC
+SonicPLC_132: 	dc.w SonicPLC_508-SonicPLC
+SonicPLC_134: 	dc.w SonicPLC_50C-SonicPLC
+SonicPLC_136: 	dc.w SonicPLC_510-SonicPLC
+SonicPLC_138: 	dc.w SonicPLC_514-SonicPLC
+SonicPLC_13A: 	dc.w SonicPLC_518-SonicPLC
+SonicPLC_13C: 	dc.w SonicPLC_51E-SonicPLC
+SonicPLC_13E: 	dc.w SonicPLC_524-SonicPLC
+SonicPLC_140: 	dc.w SonicPLC_528-SonicPLC
+SonicPLC_142: 	dc.w SonicPLC_52E-SonicPLC
+SonicPLC_144: 	dc.w SonicPLC_534-SonicPLC
+SonicPLC_146: 	dc.w SonicPLC_53A-SonicPLC
+SonicPLC_148: 	dc.w SonicPLC_540-SonicPLC
+SonicPLC_14A: 	dc.w SonicPLC_546-SonicPLC
+SonicPLC_14C: 	dc.w SonicPLC_54C-SonicPLC
+SonicPLC_14E: 	dc.w SonicPLC_554-SonicPLC
+SonicPLC_150: 	dc.w SonicPLC_55A-SonicPLC
+SonicPLC_152: 	dc.w SonicPLC_562-SonicPLC
+SonicPLC_154: 	dc.w SonicPLC_56A-SonicPLC
+SonicPLC_156: 	dc.w SonicPLC_570-SonicPLC
+SonicPLC_158: 	dc.w SonicPLC_576-SonicPLC
+SonicPLC_15A: 	dc.w SonicPLC_57C-SonicPLC
+SonicPLC_15C: 	dc.w SonicPLC_580-SonicPLC
+SonicPLC_15E: 	dc.w SonicPLC_588-SonicPLC
+SonicPLC_160: 	dc.w SonicPLC_58E-SonicPLC
+SonicPLC_162: 	dc.w SonicPLC_594-SonicPLC
+SonicPLC_164: 	dc.w SonicPLC_59A-SonicPLC
+SonicPLC_166: 	dc.w SonicPLC_5A2-SonicPLC
+SonicPLC_168: 	dc.w SonicPLC_5AA-SonicPLC
+SonicPLC_16A: 	dc.w SonicPLC_5B0-SonicPLC
+SonicPLC_16C: 	dc.w SonicPLC_5B6-SonicPLC
+SonicPLC_16E: 	dc.w SonicPLC_5BA-SonicPLC
+SonicPLC_170: 	dc.w SonicPLC_5C0-SonicPLC
+SonicPLC_172: 	dc.w SonicPLC_5C6-SonicPLC
+SonicPLC_174: 	dc.w SonicPLC_5CC-SonicPLC
+SonicPLC_176: 	dc.w SonicPLC_5D6-SonicPLC
+SonicPLC_178: 	dc.w SonicPLC_5DC-SonicPLC
+SonicPLC_17A: 	dc.w SonicPLC_5E2-SonicPLC
+SonicPLC_17C: 	dc.w SonicPLC_5EA-SonicPLC
+SonicPLC_17E: 	dc.w SonicPLC_5F4-SonicPLC
+SonicPLC_180: 	dc.w SonicPLC_5FC-SonicPLC
+SonicPLC_182: 	dc.w SonicPLC_606-SonicPLC
+SonicPLC_184: 	dc.w SonicPLC_60A-SonicPLC
+SonicPLC_186: 	dc.w SonicPLC_610-SonicPLC
+SonicPLC_188: 	dc.w SonicPLC_616-SonicPLC
+SonicPLC_18A: 	dc.w SonicPLC_61C-SonicPLC
+SonicPLC_18C: 	dc.w SonicPLC_622-SonicPLC
+SonicPLC_18E: 	dc.w SonicPLC_628-SonicPLC
+SonicPLC_190: 	dc.w SonicPLC_62E-SonicPLC
+SonicPLC_192: 	dc.w SonicPLC_632-SonicPLC
+SonicPLC_194: 	dc.w SonicPLC_636-SonicPLC
+SonicPLC_196: 	dc.w SonicPLC_63A-SonicPLC
+SonicPLC_198: 	dc.w SonicPLC_63E-SonicPLC
+SonicPLC_19A: 	dc.w SonicPLC_642-SonicPLC
+SonicPLC_19C: 	dc.w SonicPLC_646-SonicPLC
+SonicPLC_19E: 	dc.w SonicPLC_64A-SonicPLC
+SonicPLC_1A0: 	dc.w SonicPLC_64E-SonicPLC
+SonicPLC_1A2: 	dc.w SonicPLC_654-SonicPLC
+SonicPLC_1A4: 	dc.w SonicPLC_65A-SonicPLC
+SonicPLC_1A6: 	dc.w SonicPLC_65E-SonicPLC
+SonicPLC_1A8: 	dc.w SonicPLC_664-SonicPLC
+SonicPLC_1AA: 	dc.w SonicPLC_66A-SonicPLC
+SonicPLC_1AC: 	dc.w SonicPLC_670-SonicPLC
+SonicPLC_1AE: 	dc.w SonicPLC_676-SonicPLC
+SonicPLC_1B0: 	dc.w SonicPLC_67C-SonicPLC
+SonicPLC_1B2: 	dc.w SonicPLC_682-SonicPLC
+SonicPLC_1B4: 	dc.w SonicPLC_688-SonicPLC
+SonicPLC_1B6: 	dc.w SonicPLC_68C-SonicPLC
+SonicPLC_1B8: 	dc.w SonicPLC_690-SonicPLC
+SonicPLC_1BA: 	dc.w SonicPLC_694-SonicPLC
+SonicPLC_1BC: 	dc.w SonicPLC_698-SonicPLC
+SonicPLC_1BE: 	dc.w SonicPLC_69C-SonicPLC
+SonicPLC_1C0: 	dc.w SonicPLC_6A0-SonicPLC
+SonicPLC_1C2: 	dc.w SonicPLC_6A4-SonicPLC
+SonicPLC_1C4: 	dc.w SonicPLC_6A8-SonicPLC
+SonicPLC_1C6: 	dc.w SonicPLC_6AC-SonicPLC
+SonicPLC_1C8: 	dc.w SonicPLC_6B2-SonicPLC
+SonicPLC_1CA: 	dc.w SonicPLC_6B8-SonicPLC
+SonicPLC_1CC: 	dc.w SonicPLC_6BE-SonicPLC
+SonicPLC_1CE: 	dc.w SonicPLC_6C4-SonicPLC
+SonicPLC_1D0: 	dc.w SonicPLC_6CA-SonicPLC
+SonicPLC_1D2: 	dc.w SonicPLC_6D0-SonicPLC
+SonicPLC_1D4: 	dc.w SonicPLC_6D6-SonicPLC
+SonicPLC_1D6: 	dc.w SonicPLC_6DC-SonicPLC
+SonicPLC_1D8: 	dc.w SonicPLC_6E2-SonicPLC
+SonicPLC_1DA: 	dc.w SonicPLC_6E8-SonicPLC
+SonicPLC_1DC: 	dc.w SonicPLC_6EE-SonicPLC
+SonicPLC_1DE: 	dc.w SonicPLC_6F4-SonicPLC
+SonicPLC_1E0: 	dc.w SonicPLC_6FA-SonicPLC
+SonicPLC_1E2: 	dc.w SonicPLC_700-SonicPLC
+SonicPLC_1E4: 	dc.w SonicPLC_704-SonicPLC
+SonicPLC_1E6: 	dc.w SonicPLC_708-SonicPLC
+SonicPLC_1E8: 	dc.w SonicPLC_70C-SonicPLC
+SonicPLC_1EA: 	dc.w SonicPLC_712-SonicPLC
+SonicPLC_1EC: 	dc.w SonicPLC_718-SonicPLC
+SonicPLC_1EE: 	dc.w SonicPLC_71E-SonicPLC
+SonicPLC_1F0: 	dc.w SonicPLC_722-SonicPLC
+SonicPLC_1F2: 	dc.w SonicPLC_726-SonicPLC
+SonicPLC_1F4: 	dc.w SonicPLC_72A-SonicPLC
+SonicPLC_1F6: 	dc.b $0, $0
+SonicPLC_1F8: 	dc.b $0, $2
+	dc.b $F0, $0
+	dc.b $60, $10
+SonicPLC_1FE: 	dc.b $0, $2
+	dc.b $D0, $17
+	dc.b $70, $0
+SonicPLC_204: 	dc.b $0, $1
+	dc.b $F0, $25
+SonicPLC_208: 	dc.b $0, $2
+	dc.b $F0, $35
+	dc.b $10, $45
+SonicPLC_20E: 	dc.b $0, $2
+	dc.b $D0, $47
+	dc.b $50, $41
+SonicPLC_214: 	dc.b $0, $2
+	dc.b $D0, $55
+	dc.b $50, $41
+SonicPLC_21A: 	dc.b $0, $2
+	dc.b $80, $63
+	dc.b $60, $2E
+SonicPLC_220: 	dc.b $0, $2
+	dc.b $80, $6C
+	dc.b $70, $0
+SonicPLC_226: 	dc.b $0, $2
+	dc.b $F0, $75
+	dc.b $80, $85
+SonicPLC_22C: 	dc.b $0, $2
+	dc.b $F0, $8E
+	dc.b $70, $9E
+SonicPLC_232: 	dc.b $0, $2
+	dc.b $F0, $A6
+	dc.b $20, $B6
+SonicPLC_238: 	dc.b $0, $2
+	dc.b $F0, $B9
+	dc.b $60, $C9
+SonicPLC_23E: 	dc.b $0, $2
+	dc.b $F0, $D0
+	dc.b $B0, $E0
+SonicPLC_244: 	dc.b $0, $2
+	dc.b $F0, $EC
+	dc.b $C0, $FC
+SonicPLC_24A: 	dc.b $0, $2
+	dc.b $F1, $9
+	dc.b $31, $19
+SonicPLC_250: 	dc.b $0, $2
+	dc.b $F1, $1D
+	dc.b $31, $2D
+SonicPLC_256: 	dc.b $0, $2
+	dc.b $F1, $31
+	dc.b $61, $41
+SonicPLC_25C: 	dc.b $0, $2
+	dc.b $F1, $48
+	dc.b $51, $58
+SonicPLC_262: 	dc.b $0, $1
+	dc.b $F1, $5E
+SonicPLC_266: 	dc.b $0, $2
+	dc.b $F1, $6E
+	dc.b $31, $7E
+SonicPLC_26C: 	dc.b $0, $2
+	dc.b $D1, $82
+	dc.b $71, $7A
+SonicPLC_272: 	dc.b $0, $2
+	dc.b $F1, $90
+	dc.b $41, $A0
+SonicPLC_278: 	dc.b $0, $2
+	dc.b $81, $A5
+	dc.b $61, $67
+SonicPLC_27E: 	dc.b $0, $2
+	dc.b $81, $AE
+	dc.b $71, $40
+SonicPLC_284: 	dc.b $0, $2
+	dc.b $F1, $B7
+	dc.b $81, $C7
+SonicPLC_28A: 	dc.b $0, $2
+	dc.b $F1, $D0
+	dc.b $71, $E0
+SonicPLC_290: 	dc.b $0, $2
+	dc.b $F1, $E8
+	dc.b $21, $F8
+SonicPLC_296: 	dc.b $0, $2
+	dc.b $F1, $FB
+	dc.b $62, $B
+SonicPLC_29C: 	dc.b $0, $2
+	dc.b $F2, $12
+	dc.b $A2, $22
+SonicPLC_2A2: 	dc.b $0, $2
+	dc.b $F2, $2D
+	dc.b $C2, $3D
+SonicPLC_2A8: 	dc.b $0, $2
+	dc.b $F2, $4A
+	dc.b $32, $5A
+SonicPLC_2AE: 	dc.b $0, $2
+	dc.b $F2, $5E
+	dc.b $32, $6E
+SonicPLC_2B4: 	dc.b $0, $2
+	dc.b $F2, $72
+	dc.b $22, $82
+SonicPLC_2BA: 	dc.b $0, $2
+	dc.b $F2, $85
+	dc.b $22, $95
+SonicPLC_2C0: 	dc.b $0, $2
+	dc.b $22, $72
+	dc.b $F2, $98
+SonicPLC_2C6: 	dc.b $0, $2
+	dc.b $22, $85
+	dc.b $F2, $A8
+SonicPLC_2CC: 	dc.b $0, $2
+	dc.b $F2, $B8
+	dc.b $32, $C8
+SonicPLC_2D2: 	dc.b $0, $2
+	dc.b $F2, $CC
+	dc.b $22, $DC
+SonicPLC_2D8: 	dc.b $0, $2
+	dc.b $F2, $DF
+	dc.b $32, $EF
+SonicPLC_2DE: 	dc.b $0, $2
+	dc.b $22, $CC
+	dc.b $F2, $F3
+SonicPLC_2E4: 	dc.b $0, $2
+	dc.b $F3, $3
+	dc.b $23, $13
+SonicPLC_2EA: 	dc.b $0, $2
+	dc.b $F3, $16
+	dc.b $23, $26
+SonicPLC_2F0: 	dc.b $0, $2
+	dc.b $23, $3
+	dc.b $F3, $29
+SonicPLC_2F6: 	dc.b $0, $2
+	dc.b $23, $16
+	dc.b $F3, $39
+SonicPLC_2FC: 	dc.b $0, $2
+	dc.b $F3, $49
+	dc.b $33, $59
+SonicPLC_302: 	dc.b $0, $2
+	dc.b $F3, $5D
+	dc.b $23, $6D
+SonicPLC_308: 	dc.b $0, $2
+	dc.b $F3, $70
+	dc.b $33, $80
+SonicPLC_30E: 	dc.b $0, $2
+	dc.b $23, $5D
+	dc.b $F3, $84
+SonicPLC_314: 	dc.b $0, $2
+	dc.b $F3, $94
+	dc.b $13, $A4
+SonicPLC_31A: 	dc.b $0, $1
+	dc.b $E3, $A6
+SonicPLC_31E: 	dc.b $0, $1
+	dc.b $A3, $B5
+SonicPLC_322: 	dc.b $0, $1
+	dc.b $D3, $C0
+SonicPLC_326: 	dc.b $0, $1
+	dc.b $B3, $CE
+SonicPLC_32A: 	dc.b $0, $1
+	dc.b $F3, $DA
+SonicPLC_32E: 	dc.b $0, $2
+	dc.b $F3, $EA
+	dc.b $23, $FA
+SonicPLC_334: 	dc.b $0, $1
+	dc.b $C3, $FD
+SonicPLC_338: 	dc.b $0, $1
+	dc.b $C4, $A
+SonicPLC_33C: 	dc.b $0, $1
+	dc.b $B4, $17
+SonicPLC_340: 	dc.b $0, $1
+	dc.b $C4, $23
+SonicPLC_344: 	dc.b $0, $1
+	dc.b $E4, $30
+SonicPLC_348: 	dc.b $0, $1
+	dc.b $F4, $3F
+SonicPLC_34C: 	dc.b $0, $1
+	dc.b $B4, $4F
+SonicPLC_350: 	dc.b $0, $1
+	dc.b $C4, $5B
+SonicPLC_354: 	dc.b $0, $1
+	dc.b $B4, $68
+SonicPLC_358: 	dc.b $0, $1
+	dc.b $E4, $74
+SonicPLC_35C: 	dc.b $0, $1
+	dc.b $F4, $83
+SonicPLC_360: 	dc.b $0, $1
+	dc.b $E4, $93
+SonicPLC_364: 	dc.b $0, $1
+	dc.b $B4, $A2
+SonicPLC_368: 	dc.b $0, $1
+	dc.b $A4, $AE
+SonicPLC_36C: 	dc.b $0, $1
+	dc.b $B4, $B9
+SonicPLC_370: 	dc.b $0, $1
+	dc.b $D4, $C5
+SonicPLC_374: 	dc.b $0, $2
+	dc.b $F4, $D3
+	dc.b $4, $E3
+SonicPLC_37A: 	dc.b $0, $2
+	dc.b $F4, $E4
+	dc.b $34, $F4
+SonicPLC_380: 	dc.b $0, $2
+	dc.b $F4, $F8
+	dc.b $15, $8
+SonicPLC_386: 	dc.b $0, $1
+	dc.b $C5, $A
+SonicPLC_38A: 	dc.b $0, $1
+	dc.b $D5, $17
+SonicPLC_38E: 	dc.b $0, $1
+	dc.b $B5, $25
+SonicPLC_392: 	dc.b $0, $1
+	dc.b $F5, $31
+SonicPLC_396: 	dc.b $0, $2
+	dc.b $F5, $41
+	dc.b $15, $51
+SonicPLC_39C: 	dc.b $0, $2
+	dc.b $F5, $53
+	dc.b $15, $63
+SonicPLC_3A2: 	dc.b $0, $1
+	dc.b $D5, $65
+SonicPLC_3A6: 	dc.b $0, $1
+	dc.b $B5, $73
+SonicPLC_3AA: 	dc.b $0, $1
+	dc.b $B5, $7F
+SonicPLC_3AE: 	dc.b $0, $2
+	dc.b $F5, $8B
+	dc.b $5, $9B
+SonicPLC_3B4: 	dc.b $0, $2
+	dc.b $F5, $9C
+	dc.b $5, $AC
+SonicPLC_3BA: 	dc.b $0, $2
+	dc.b $F5, $AD
+	dc.b $5, $BD
+SonicPLC_3C0: 	dc.b $0, $1
+	dc.b $F5, $BE
+SonicPLC_3C4: 	dc.b $0, $1
+	dc.b $E5, $CE
+SonicPLC_3C8: 	dc.b $0, $2
+	dc.b $F5, $DD
+	dc.b $15, $ED
+SonicPLC_3CE: 	dc.b $0, $1
+	dc.b $F5, $EF
+SonicPLC_3D2: 	dc.b $0, $1
+	dc.b $E5, $FF
+SonicPLC_3D6: 	dc.b $0, $1
+	dc.b $F6, $E
+SonicPLC_3DA: 	dc.b $0, $1
+	dc.b $B6, $1E
+SonicPLC_3DE: 	dc.b $0, $1
+	dc.b $E6, $2A
+SonicPLC_3E2: 	dc.b $0, $2
+	dc.b $F6, $39
+	dc.b $6, $49
+SonicPLC_3E8: 	dc.b $0, $1
+	dc.b $B6, $4A
+SonicPLC_3EC: 	dc.b $0, $1
+	dc.b $C6, $56
+SonicPLC_3F0: 	dc.b $0, $1
+	dc.b $E6, $63
+SonicPLC_3F4: 	dc.b $0, $1
+	dc.b $F6, $72
+SonicPLC_3F8: 	dc.b $0, $1
+	dc.b $B6, $82
+SonicPLC_3FC: 	dc.b $0, $1
+	dc.b $E6, $8E
+SonicPLC_400: 	dc.b $0, $2
+	dc.b $F6, $9D
+	dc.b $6, $AD
+SonicPLC_406: 	dc.b $0, $1
+	dc.b $B6, $AE
+SonicPLC_40A: 	dc.b $0, $1
+	dc.b $C6, $BA
+SonicPLC_40E: 	dc.b $0, $1
+	dc.b $E6, $C7
+SonicPLC_412: 	dc.b $0, $1
+	dc.b $D6, $D6
+SonicPLC_416: 	dc.b $0, $1
+	dc.b $B6, $E4
+SonicPLC_41A: 	dc.b $0, $1
+	dc.b $B6, $F0
+SonicPLC_41E: 	dc.b $0, $2
+	dc.b $F6, $FC
+	dc.b $17, $C
+SonicPLC_424: 	dc.b $0, $1
+	dc.b $D7, $E
+SonicPLC_428: 	dc.b $0, $1
+	dc.b $B7, $1C
+SonicPLC_42C: 	dc.b $0, $1
+	dc.b $B7, $28
+SonicPLC_430: 	dc.b $0, $1
+	dc.b $C7, $34
+SonicPLC_434: 	dc.b $0, $1
+	dc.b $F7, $41
+SonicPLC_438: 	dc.b $0, $2
+	dc.b $F7, $51
+	dc.b $7, $61
+SonicPLC_43E: 	dc.b $0, $1
+	dc.b $C7, $62
+SonicPLC_442: 	dc.b $0, $1
+	dc.b $97, $6F
+SonicPLC_446: 	dc.b $0, $1
+	dc.b $D7, $79
+SonicPLC_44A: 	dc.b $0, $1
+	dc.b $B7, $87
+SonicPLC_44E: 	dc.b $0, $2
+	dc.b $F7, $93
+	dc.b $67, $A3
+SonicPLC_454: 	dc.b $0, $2
+	dc.b $F7, $AA
+	dc.b $67, $BA
+SonicPLC_45A: 	dc.b $0, $2
+	dc.b $F7, $C1
+	dc.b $67, $D1
+SonicPLC_460: 	dc.b $0, $2
+	dc.b $F7, $D8
+	dc.b $67, $E8
+SonicPLC_466: 	dc.b $0, $2
+	dc.b $F7, $93
+	dc.b $67, $A3
+SonicPLC_46C: 	dc.b $0, $2
+	dc.b $F7, $AA
+	dc.b $67, $BA
+SonicPLC_472: 	dc.b $0, $2
+	dc.b $F7, $C1
+	dc.b $67, $D1
+SonicPLC_478: 	dc.b $0, $2
+	dc.b $F7, $D8
+	dc.b $67, $E8
+SonicPLC_47E: 	dc.b $0, $2
+	dc.b $F7, $EF
+	dc.b $47, $FF
+SonicPLC_484: 	dc.b $0, $2
+	dc.b $F8, $4
+	dc.b $28, $14
+SonicPLC_48A: 	dc.b $0, $2
+	dc.b $F8, $17
+	dc.b $28, $27
+SonicPLC_490: 	dc.b $0, $2
+	dc.b $F8, $2A
+	dc.b $18, $3A
+SonicPLC_496: 	dc.b $0, $2
+	dc.b $F8, $3C
+	dc.b $38, $4C
+SonicPLC_49C: 	dc.b $0, $2
+	dc.b $F8, $50
+	dc.b $18, $60
+SonicPLC_4A2: 	dc.b $0, $1
+	dc.b $D8, $62
+SonicPLC_4A6: 	dc.b $0, $1
+	dc.b $E8, $70
+SonicPLC_4AA: 	dc.b $0, $2
+	dc.b $B8, $7F
+	dc.b $28, $7C
+SonicPLC_4B0: 	dc.b $0, $2
+	dc.b $B8, $8B
+	dc.b $28, $7C
+SonicPLC_4B6: 	dc.b $0, $2
+	dc.b $B8, $97
+	dc.b $28, $7C
+SonicPLC_4BC: 	dc.b $0, $2
+	dc.b $B8, $A3
+	dc.b $28, $7C
+SonicPLC_4C2: 	dc.b $0, $2
+	dc.b $F8, $AF
+	dc.b $18, $BF
+SonicPLC_4C8: 	dc.b $0, $2
+	dc.b $B8, $C1
+	dc.b $58, $BB
+SonicPLC_4CE: 	dc.b $0, $1
+	dc.b $F8, $CD
+SonicPLC_4D2: 	dc.b $0, $2
+	dc.b $F8, $DD
+	dc.b $8, $ED
+SonicPLC_4D8: 	dc.b $0, $2
+	dc.b $F8, $EE
+	dc.b $28, $FE
+SonicPLC_4DE: 	dc.b $0, $2
+	dc.b $F9, $1
+	dc.b $49, $11
+SonicPLC_4E4: 	dc.b $0, $2
+	dc.b $F9, $16
+	dc.b $19, $26
+SonicPLC_4EA: 	dc.b $0, $2
+	dc.b $29, $16
+	dc.b $B9, $28
+SonicPLC_4F0: 	dc.b $0, $2
+	dc.b $F9, $34
+	dc.b $69, $44
+SonicPLC_4F6: 	dc.b $0, $2
+	dc.b $29, $4B
+	dc.b $E9, $3C
+SonicPLC_4FC: 	dc.b $0, $1
+	dc.b $F9, $4E
+SonicPLC_500: 	dc.b $0, $1
+	dc.b $F9, $5E
+SonicPLC_504: 	dc.b $0, $1
+	dc.b $F9, $6E
+SonicPLC_508: 	dc.b $0, $1
+	dc.b $F9, $7E
+SonicPLC_50C: 	dc.b $0, $1
+	dc.b $F9, $8E
+SonicPLC_510: 	dc.b $0, $1
+	dc.b $C9, $9E
+SonicPLC_514: 	dc.b $0, $1
+	dc.b $C9, $AB
+SonicPLC_518: 	dc.b $0, $2
+	dc.b $F9, $B8
+	dc.b $19, $C8
+SonicPLC_51E: 	dc.b $0, $2
+	dc.b $89, $B8
+	dc.b $89, $CA
+SonicPLC_524: 	dc.b $0, $1
+	dc.b $F9, $D3
+SonicPLC_528: 	dc.b $0, $2
+	dc.b $F9, $E3
+	dc.b $19, $F3
+SonicPLC_52E: 	dc.b $0, $2
+	dc.b $F9, $F5
+	dc.b $1A, $5
+SonicPLC_534: 	dc.b $0, $2
+	dc.b $FA, $7
+	dc.b $3A, $17
+SonicPLC_53A: 	dc.b $0, $2
+	dc.b $FA, $1B
+	dc.b $3A, $2B
+SonicPLC_540: 	dc.b $0, $2
+	dc.b $FA, $2F
+	dc.b $3A, $3F
+SonicPLC_546: 	dc.b $0, $2
+	dc.b $FA, $43
+	dc.b $3A, $53
+SonicPLC_54C: 	dc.b $0, $3
+	dc.b $2A, $2F
+	dc.b $FA, $57
+	dc.b $A, $67
+SonicPLC_554: 	dc.b $0, $2
+	dc.b $FA, $68
+	dc.b $3A, $78
+SonicPLC_55A: 	dc.b $0, $3
+	dc.b $FA, $7C
+	dc.b $2A, $8C
+	dc.b $A, $7B
+SonicPLC_562: 	dc.b $0, $3
+	dc.b $FA, $8F
+	dc.b $1A, $9F
+	dc.b $A, $7B
+SonicPLC_56A: 	dc.b $0, $2
+	dc.b $FA, $A1
+	dc.b $2A, $B1
+SonicPLC_570: 	dc.b $0, $2
+	dc.b $FA, $B4
+	dc.b $2A, $C4
+SonicPLC_576: 	dc.b $0, $2
+	dc.b $FA, $C7
+	dc.b $4A, $D7
+SonicPLC_57C: 	dc.b $0, $1
+	dc.b $FA, $DC
+SonicPLC_580: 	dc.b $0, $3
+	dc.b $2A, $DC
+	dc.b $7A, $EC
+	dc.b $4A, $E7
+SonicPLC_588: 	dc.b $0, $2
+	dc.b $EA, $F4
+	dc.b $2A, $E9
+SonicPLC_58E: 	dc.b $0, $2
+	dc.b $FB, $3
+	dc.b $B, $13
+SonicPLC_594: 	dc.b $0, $2
+	dc.b $FB, $14
+	dc.b $B, $24
+SonicPLC_59A: 	dc.b $0, $3
+	dc.b $2B, $14
+	dc.b $7B, $25
+	dc.b $5B, $1F
+SonicPLC_5A2: 	dc.b $0, $3
+	dc.b $2B, $14
+	dc.b $7B, $2D
+	dc.b $5B, $1F
+SonicPLC_5AA: 	dc.b $0, $2
+	dc.b $FB, $35
+	dc.b $2B, $45
+SonicPLC_5B0: 	dc.b $0, $2
+	dc.b $FB, $48
+	dc.b $2B, $58
+SonicPLC_5B6: 	dc.b $0, $1
+	dc.b $EB, $5B
+SonicPLC_5BA: 	dc.b $0, $2
+	dc.b $1B, $5B
+	dc.b $AB, $6A
+SonicPLC_5C0: 	dc.b $0, $2
+	dc.b $1B, $5B
+	dc.b $DB, $75
+SonicPLC_5C6: 	dc.b $0, $2
+	dc.b $1B, $5B
+	dc.b $AB, $83
+SonicPLC_5CC: 	dc.b $0, $4
+	dc.b $8B, $8E
+	dc.b $25, $AD
+	dc.b $3B, $97
+	dc.b $5, $B1
+SonicPLC_5D6: 	dc.b $0, $2
+	dc.b $FB, $9B
+	dc.b $B, $AB
+SonicPLC_5DC: 	dc.b $0, $2
+	dc.b $FB, $AC
+	dc.b $B, $BC
+SonicPLC_5E2: 	dc.b $0, $3
+	dc.b $2B, $14
+	dc.b $7B, $BD
+	dc.b $5B, $B7
+SonicPLC_5EA: 	dc.b $0, $4
+	dc.b $2B, $14
+	dc.b $7B, $BD
+	dc.b $2B, $B7
+	dc.b $2B, $C5
+SonicPLC_5F4: 	dc.b $0, $3
+	dc.b $2B, $14
+	dc.b $7B, $C8
+	dc.b $5B, $B7
+SonicPLC_5FC: 	dc.b $0, $4
+	dc.b $2B, $14
+	dc.b $7B, $C8
+	dc.b $2B, $B7
+	dc.b $2B, $C5
+SonicPLC_606: 	dc.b $0, $1
+	dc.b $FB, $D0
+SonicPLC_60A: 	dc.b $0, $2
+	dc.b $DB, $E0
+	dc.b $3B, $DC
+SonicPLC_610: 	dc.b $0, $2
+	dc.b $FB, $EE
+	dc.b $B, $FE
+SonicPLC_616: 	dc.b $0, $2
+	dc.b $FB, $FF
+	dc.b $C, $F
+SonicPLC_61C: 	dc.b $0, $2
+	dc.b $EC, $10
+	dc.b $2B, $FC
+SonicPLC_622: 	dc.b $0, $2
+	dc.b $FC, $1F
+	dc.b $C, $2F
+SonicPLC_628: 	dc.b $0, $2
+	dc.b $CC, $30
+	dc.b $2B, $FC
+SonicPLC_62E: 	dc.b $0, $1
+	dc.b $DC, $3D
+SonicPLC_632: 	dc.b $0, $1
+	dc.b $AC, $4B
+SonicPLC_636: 	dc.b $0, $1
+	dc.b $9C, $56
+SonicPLC_63A: 	dc.b $0, $1
+	dc.b $AC, $4B
+SonicPLC_63E: 	dc.b $0, $1
+	dc.b $DC, $3D
+SonicPLC_642: 	dc.b $0, $1
+	dc.b $CC, $60
+SonicPLC_646: 	dc.b $0, $1
+	dc.b $9C, $6D
+SonicPLC_64A: 	dc.b $0, $1
+	dc.b $CC, $60
+SonicPLC_64E: 	dc.b $0, $2
+	dc.b $F8, $AF
+	dc.b $18, $BF
+SonicPLC_654: 	dc.b $0, $2
+	dc.b $B8, $C1
+	dc.b $58, $BB
+SonicPLC_65A: 	dc.b $0, $1
+	dc.b $BC, $77
+SonicPLC_65E: 	dc.b $0, $2
+	dc.b $FC, $83
+	dc.b $3C, $93
+SonicPLC_664: 	dc.b $0, $2
+	dc.b $FC, $97
+	dc.b $5C, $A7
+SonicPLC_66A: 	dc.b $0, $2
+	dc.b $FC, $AD
+	dc.b $2C, $BD
+SonicPLC_670: 	dc.b $0, $2
+	dc.b $8C, $C0
+	dc.b $9C, $B6
+SonicPLC_676: 	dc.b $0, $2
+	dc.b $F8, $AF
+	dc.b $18, $BF
+SonicPLC_67C: 	dc.b $0, $2
+	dc.b $B8, $C1
+	dc.b $58, $BB
+SonicPLC_682: 	dc.b $0, $2
+	dc.b $FC, $C9
+	dc.b $3C, $D9
+SonicPLC_688: 	dc.b $0, $1
+	dc.b $FC, $DD
+SonicPLC_68C: 	dc.b $0, $1
+	dc.b $FC, $DD
+SonicPLC_690: 	dc.b $0, $1
+	dc.b $FC, $DD
+SonicPLC_694: 	dc.b $0, $1
+	dc.b $FC, $DD
+SonicPLC_698: 	dc.b $0, $1
+	dc.b $FC, $DD
+SonicPLC_69C: 	dc.b $0, $1
+	dc.b $FC, $DD
+SonicPLC_6A0: 	dc.b $0, $1
+	dc.b $BC, $ED
+SonicPLC_6A4: 	dc.b $0, $1
+	dc.b $EC, $F9
+SonicPLC_6A8: 	dc.b $0, $1
+	dc.b $ED, $8
+SonicPLC_6AC: 	dc.b $0, $2
+	dc.b $FD, $17
+	dc.b $4D, $27
+SonicPLC_6B2: 	dc.b $0, $2
+	dc.b $FD, $2C
+	dc.b $2D, $3C
+SonicPLC_6B8: 	dc.b $0, $2
+	dc.b $FD, $3F
+	dc.b $2D, $4F
+SonicPLC_6BE: 	dc.b $0, $2
+	dc.b $FD, $52
+	dc.b $D, $62
+SonicPLC_6C4: 	dc.b $0, $2
+	dc.b $FD, $63
+	dc.b $1D, $73
+SonicPLC_6CA: 	dc.b $0, $2
+	dc.b $FD, $75
+	dc.b $2D, $85
+SonicPLC_6D0: 	dc.b $0, $2
+	dc.b $FD, $88
+	dc.b $2D, $98
+SonicPLC_6D6: 	dc.b $0, $2
+	dc.b $FD, $9B
+	dc.b $1D, $AB
+SonicPLC_6DC: 	dc.b $0, $2
+	dc.b $FD, $AD
+	dc.b $4D, $BD
+SonicPLC_6E2: 	dc.b $0, $2
+	dc.b $FD, $C2
+	dc.b $7D, $D2
+SonicPLC_6E8: 	dc.b $0, $2
+	dc.b $FD, $DA
+	dc.b $3D, $EA
+SonicPLC_6EE: 	dc.b $0, $2
+	dc.b $FD, $EE
+	dc.b $1D, $FE
+SonicPLC_6F4: 	dc.b $0, $2
+	dc.b $FE, $0
+	dc.b $2E, $10
+SonicPLC_6FA: 	dc.b $0, $2
+	dc.b $FE, $13
+	dc.b $E, $23
+SonicPLC_700: 	dc.b $0, $1
+	dc.b $EE, $24
+SonicPLC_704: 	dc.b $0, $1
+	dc.b $CE, $33
+SonicPLC_708: 	dc.b $0, $1
+	dc.b $EE, $40
+SonicPLC_70C: 	dc.b $0, $2
+	dc.b $FE, $4F
+	dc.b $1E, $5F
+SonicPLC_712: 	dc.b $0, $2
+	dc.b $FE, $61
+	dc.b $1E, $71
+SonicPLC_718: 	dc.b $0, $2
+	dc.b $FE, $73
+	dc.b $2E, $83
+SonicPLC_71E: 	dc.b $0, $1
+	dc.b $DE, $86
+SonicPLC_722: 	dc.b $0, $1
+	dc.b $DE, $94
+SonicPLC_726: 	dc.b $0, $1
+	dc.b $DE, $A2
+SonicPLC_72A: 	dc.b $0, $2
+	dc.b $FE, $B0
+	dc.b $1E, $C0
+	even

@@ -4600,6 +4600,7 @@ z80_MusicBanks:
 	db zmake68kBank(MusData_Drown)
 	db zmake68kBank(MusData_PresSega)
 	db zmake68kBank(MusData_SKCredits)
+    db zmake68kBank(MusData_TanTan)
 ; ---------------------------------------------------------------------------
 	if $ > z80_stack_top
 		fatal "Your Z80 tables won't fit before the z80 stack. It's \{$-z80_stack_top}h bytes past the start of the bottom of the stack, at \{z80_stack_top}h"
@@ -4835,6 +4836,7 @@ MusicPointers label *
 	declsong MusData_Drown
 	declsong MusData_PresSega
 	declsong MusData_SKCredits
+    declsong MusData_TanTan
 	ifndef zMusIDPtr__End
 zMusIDPtr__End label *
 	endif
@@ -5402,5 +5404,6 @@ MusData_EMZ:			include	"Sound/Music/Endless Mine.asm"
 MusData_S3Credits:		include	"Sound/Music/Sonic 3 Credits.asm"
 MusData_2PMenu:			include	"Sound/Music/Competition Menu.asm"
 MusData_Drown:			include	"Sound/Music/Countdown.asm"
+MusData_TanTan:         include "Sound/Music/Tan Tan Ta Ta Ta Tan.asm"
 
 	finishBank

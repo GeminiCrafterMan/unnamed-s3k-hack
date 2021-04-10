@@ -1,0 +1,212 @@
+{
+    "Flex": 2,
+    "name": "",
+    "node": "8c5398fb-53de-4a80-9ab8-1ca43871257c",
+    "objects": [
+        {
+            "name": "Enemies",
+            "children": [],
+            "isDirectory": true,
+            "expanded": true
+        },
+        {
+            "name": "Bosses",
+            "children": [],
+            "isDirectory": true,
+            "expanded": true
+        },
+        {
+            "name": "Characters",
+            "children": [
+                {
+                    "name": "Main Game",
+                    "children": [
+                        {
+                            "uuid": "6dbda8ab-0e44-4306-b28d-3c0587bb600d",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Sonic",
+                            "palettes": [
+                                {
+                                    "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                                    "length": 2
+                                },
+                                {
+                                    "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                                    "length": 1
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
+                                }
+                            ],
+                            "art": {
+                                "path": "General/Sprites/Sonic/Art/Sonic.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General/Sprites/Sonic/Map - Sonic.asm",
+                                "label": "SonicMap"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General/Sprites/Sonic/Sonic pattern load cues.asm",
+                                "label": "SonicPLC"
+                            }
+                        },
+                        {
+                            "uuid": "d5bc0c7b-0d17-4a8f-a4a0-5766618d376d",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Super Sonic",
+                            "palettes": [
+                                {
+                                    "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                                    "length": 2
+                                }
+                            ],
+                            "art": {
+                                "path": "General/Sprites/Sonic/Art/Super Sonic.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General/Sprites/Sonic/Map - Super Sonic.asm",
+                                "label": "SuperSonicMap"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General/Sprites/Sonic/Super Sonic pattern load cues.asm",
+                                "label": "SuperSonicPLC"
+                            }
+                        },
+                        {
+                            "uuid": "8c5398fb-53de-4a80-9ab8-1ca43871257c",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Tails",
+                            "palettes": [
+                                {
+                                    "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                                    "length": 2
+                                },
+                                {
+                                    "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                                    "length": 1
+                                }
+                            ],
+                            "art": {
+                                "path": "General/Sprites/Tails/Art/Tails.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General/Sprites/Tails/Map - Tails.asm",
+                                "label": "TailsMap"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General/Sprites/Tails/Tails pattern load cues.asm",
+                                "label": "TailsPLC"
+                            }
+                        },
+                        {
+                            "uuid": "006bde93-14ff-49a6-8834-00f2f14a1021",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Tails's Tails",
+                            "palettes": [],
+                            "art": {
+                                "path": "General/Sprites/Tails/Art/Tails tails.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General/Sprites/Tails/Map - Tails tails.asm",
+                                "label": "TailsTailsMap"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General/Sprites/Tails/Tails tails pattern load cues.asm",
+                                "label": "TailsTailsPLC"
+                            }
+                        },
+                        {
+                            "uuid": "cb007149-4a4f-4034-9092-98f85d51211b",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Knuckles",
+                            "palettes": [
+                                {
+                                    "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                                    "length": 1
+                                },
+                                {
+                                    "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                                    "length": 2
+                                }
+                            ],
+                            "art": {
+                                "path": "General/Sprites/Knuckles/Art/Knuckles.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General/Sprites/Knuckles/Map - Knuckles.asm",
+                                "label": "KnucklesMap"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General/Sprites/Knuckles/Knuckles pattern load cues.asm",
+                                "label": "KnucklesPLC"
+                            }
+                        }
+                    ],
+                    "isDirectory": true,
+                    "expanded": true,
+                    "uuid": "3ed5bc0c-7b0d-475a-8fa4-a05766618d37"
+                },
+                {
+                    "name": "Competition Mode",
+                    "children": [
+                        {
+                            "uuid": "0071494a-4f10-4410-9298-f85d51211b44",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Sonic",
+                            "palettes": [
+                                {
+                                    "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                                    "length": 2
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
+                                }
+                            ],
+                            "art": {
+                                "path": "General/Sprites/Sonic/Art/Sonic 2P.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General/Sprites/Sonic/Map - Sonic 2P.asm",
+                                "label": "SonicMap2P"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General/Sprites/Sonic/DPLC - Sonic 2P.asm",
+                                "label": "SonicPLC2P"
+                            }
+                        }
+                    ],
+                    "isDirectory": true,
+                    "expanded": true,
+                    "uuid": "81efd26a-de1e-425d-8d05-2e9b96814bc0"
+                }
+            ],
+            "isDirectory": true,
+            "expanded": true,
+            "uuid": "ee81efd2-6ade-4e22-9dcd-052e9b96814b"
+        }
+    ]
+}
