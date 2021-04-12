@@ -42,8 +42,8 @@
 		dc.w AniTails29-AniTails
 AniTails00:	dc.b  $FF,   7,   8,   1,   2,   3,   4,   5,   6, $FF
 AniTails01:	dc.b  $FF, $21, $22, $23, $24, $FF, $FF, $FF, $FF, $FF
-AniTails02:	dc.b    1, $96, $97, $98, $FF
-AniTails03:	dc.b    0, $96, $97, $98, $FF
+AniTails02:	dc.b    1, $96, $97, $98, $D1, $FF  ; Edited
+AniTails03:	dc.b    0, $96, $97, $98, $D1, $FF  ; Edited
 AniTails04:	dc.b  $FD, $A9, $AA, $AB, $AC, $FF, $FF, $FF, $FF, $FF
 AniTails05:	dc.b    7, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AF, $AE, $AD, $AD, $AD
 		dc.b  $AD, $AD, $AD, $AD, $AD, $AF, $AE, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD
@@ -53,7 +53,7 @@ AniTails06:	dc.b    9, $9A, $9A, $9B, $9B, $9A, $9A, $9B, $9B, $9A, $9A, $9B, $9
 		dc.b  $9B, $9A, $9A, $9B, $9B, $9A, $9B, $FF
 AniTails07:	dc.b  $3F, $B0, $FF
 AniTails08:	dc.b  $3F, $99, $FF
-AniTails09:	dc.b    0, $86, $87, $88, $FF
+AniTails09:	dc.b    0, $86, $87, $88, $D2, $D3, $D4, $FF    ; Edited
 AniTails0A:	dc.b  $3F, $82, $FF
 AniTails0B:	dc.b   $F, $8D, $FF
 AniTails0C:	dc.b    9, $A4, $9B, $FF
@@ -67,7 +67,7 @@ AniTails13:	dc.b   $F, $A5, $A6, $FE,   1
 AniTails14:	dc.b  $13, $91, $FF
 AniTails15:	dc.b   $B, $9F, $9F,   3,   4, $FD,   0
 AniTails16:	dc.b  $20, $9C, $FF
-AniTails17:	dc.b  $2F, $9C, $FF
+AniTails17:	dc.b  $2F, $D5, $FF
 AniTails18:	dc.b    3, $9C, $FF
 AniTails19:	dc.b    9, $CB, $CC, $FF
 AniTails1A:	dc.b  $40, $8A, $FF
@@ -85,5 +85,5 @@ AniTails25:	dc.b    7, $BD, $BE, $BF, $C0, $C1, $FF
 AniTails26:	dc.b    3, $BD, $BE, $BF, $C0, $C1, $FF
 AniTails27:	dc.b    4, $CF, $D0, $FF
 AniTails28:	dc.b   $B, $C2, $CD, $CE, $FF
-AniTails29:	dc.b    2, $EB, $EB, $EC, $ED, $EC, $ED, $EC, $ED, $EC, $ED, $EC, $ED, $FD,   0
+AniTails29:	dc.b    2, $EB, $EB, $EC, $EC, $ED, $EE, $D6, $EE, $D6, $EE, $D6, $EE, $D6, $FD,   0
 		even

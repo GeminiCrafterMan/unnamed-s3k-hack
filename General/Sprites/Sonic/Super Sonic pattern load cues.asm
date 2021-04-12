@@ -760,8 +760,8 @@ SuperSonicPLC_5EA: 	dc.b $0, $2
 	dc.b $8B, $6E
 	dc.b $BB, $83
 SuperSonicPLC_5F0: 	dc.b $0, $2
-	dc.b $FB, $6E
-	dc.b $4B, $7E
+	dc.b $8B, $6E
+	dc.b $CB, $8F
 SuperSonicPLC_5F6: 	dc.b $0, $2
 	dc.b $8B, $6E
 	dc.b $BB, $83
@@ -770,7 +770,7 @@ SuperSonicPLC_5FC: 	dc.b $0, $2
 	dc.b $4B, $7E
 SuperSonicPLC_602: 	dc.b $0, $2
 	dc.b $8B, $6E
-	dc.b $BB, $83
+	dc.b $CB, $8F
 SuperSonicPLC_608: 	dc.b $0, $2
 	dc.b $FB, $6E
 	dc.b $4B, $7E
@@ -778,14 +778,14 @@ SuperSonicPLC_60E: 	dc.b $0, $2
 	dc.b $8B, $6E
 	dc.b $BB, $83
 SuperSonicPLC_614: 	dc.b $0, $2
-	dc.b $FB, $6E
-	dc.b $4B, $7E
+	dc.b $8B, $6E
+	dc.b $CB, $8F
 SuperSonicPLC_61A: 	dc.b $0, $2
-	dc.b $FB, $8F
-	dc.b $B, $9F
+	dc.b $FB, $9C
+	dc.b $B, $AC
 SuperSonicPLC_620: 	dc.b $0, $2
-	dc.b $FB, $A0
-	dc.b $B, $B0
+	dc.b $FB, $AD
+	dc.b $B, $BD
 SuperSonicPLC_626: 	dc.b $0, $2
 	dc.b $8B, $6E
 	dc.b $BB, $83
@@ -794,23 +794,23 @@ SuperSonicPLC_62C: 	dc.b $0, $2
 	dc.b $4B, $7E
 SuperSonicPLC_632: 	dc.b $0, $2
 	dc.b $8B, $6E
-	dc.b $BB, $83
+	dc.b $CB, $8F
 SuperSonicPLC_638: 	dc.b $0, $1
-	dc.b $DB, $B1
+	dc.b $DB, $BE
 SuperSonicPLC_63C: 	dc.b $0, $1
-	dc.b $AB, $BF
+	dc.b $AB, $CC
 SuperSonicPLC_640: 	dc.b $0, $1
-	dc.b $9B, $CA
+	dc.b $9B, $D7
 SuperSonicPLC_644: 	dc.b $0, $1
-	dc.b $AB, $BF
+	dc.b $AB, $CC
 SuperSonicPLC_648: 	dc.b $0, $1
-	dc.b $DB, $B1
+	dc.b $DB, $BE
 SuperSonicPLC_64C: 	dc.b $0, $1
-	dc.b $CB, $D4
+	dc.b $CB, $E1
 SuperSonicPLC_650: 	dc.b $0, $1
-	dc.b $9B, $E1
+	dc.b $9B, $EE
 SuperSonicPLC_654: 	dc.b $0, $1
-	dc.b $CB, $D4
+	dc.b $CB, $E1
 SuperSonicPLC_658: 	dc.b $0, $2
 	dc.b $F8, $B7
 	dc.b $18, $C7
@@ -818,19 +818,19 @@ SuperSonicPLC_65E: 	dc.b $0, $2
 	dc.b $B8, $C9
 	dc.b $58, $C3
 SuperSonicPLC_664: 	dc.b $0, $1
-	dc.b $BB, $EB
+	dc.b $BB, $F8
 SuperSonicPLC_668: 	dc.b $0, $2
-	dc.b $FB, $F7
-	dc.b $3C, $7
+	dc.b $FC, $4
+	dc.b $3C, $14
 SuperSonicPLC_66E: 	dc.b $0, $2
-	dc.b $FC, $B
-	dc.b $5C, $1B
+	dc.b $FC, $18
+	dc.b $5C, $28
 SuperSonicPLC_674: 	dc.b $0, $2
-	dc.b $FC, $21
-	dc.b $2C, $31
+	dc.b $FC, $2E
+	dc.b $2C, $3E
 SuperSonicPLC_67A: 	dc.b $0, $2
-	dc.b $8C, $34
-	dc.b $9C, $2A
+	dc.b $8C, $41
+	dc.b $9C, $37
 SuperSonicPLC_680: 	dc.b $0, $2
 	dc.b $F8, $B7
 	dc.b $18, $C7
@@ -838,90 +838,90 @@ SuperSonicPLC_686: 	dc.b $0, $2
 	dc.b $B8, $C9
 	dc.b $58, $C3
 SuperSonicPLC_68C: 	dc.b $0, $2
-	dc.b $FC, $3D
-	dc.b $3C, $4D
+	dc.b $FC, $4A
+	dc.b $3C, $5A
 SuperSonicPLC_692: 	dc.b $0, $1
-	dc.b $FC, $51
+	dc.b $FC, $5E
 SuperSonicPLC_696: 	dc.b $0, $1
-	dc.b $FC, $51
+	dc.b $FC, $5E
 SuperSonicPLC_69A: 	dc.b $0, $1
-	dc.b $FC, $51
+	dc.b $FC, $5E
 SuperSonicPLC_69E: 	dc.b $0, $1
-	dc.b $FC, $51
+	dc.b $FC, $5E
 SuperSonicPLC_6A2: 	dc.b $0, $1
-	dc.b $FC, $51
+	dc.b $FC, $5E
 SuperSonicPLC_6A6: 	dc.b $0, $1
-	dc.b $FC, $51
+	dc.b $FC, $5E
 SuperSonicPLC_6AA: 	dc.b $0, $1
-	dc.b $BC, $61
+	dc.b $BC, $6E
 SuperSonicPLC_6AE: 	dc.b $0, $1
-	dc.b $EC, $6D
+	dc.b $EC, $7A
 SuperSonicPLC_6B2: 	dc.b $0, $1
-	dc.b $EC, $7C
+	dc.b $EC, $89
 SuperSonicPLC_6B6: 	dc.b $0, $2
-	dc.b $FC, $8B
-	dc.b $4C, $9B
+	dc.b $FC, $98
+	dc.b $4C, $A8
 SuperSonicPLC_6BC: 	dc.b $0, $2
-	dc.b $FC, $A0
-	dc.b $2C, $B0
+	dc.b $FC, $AD
+	dc.b $2C, $BD
 SuperSonicPLC_6C2: 	dc.b $0, $2
-	dc.b $FC, $B3
-	dc.b $2C, $C3
+	dc.b $FC, $C0
+	dc.b $2C, $D0
 SuperSonicPLC_6C8: 	dc.b $0, $2
-	dc.b $FC, $C6
-	dc.b $C, $D6
+	dc.b $FC, $D3
+	dc.b $C, $E3
 SuperSonicPLC_6CE: 	dc.b $0, $2
-	dc.b $FC, $D7
-	dc.b $1C, $E7
+	dc.b $FC, $E4
+	dc.b $1C, $F4
 SuperSonicPLC_6D4: 	dc.b $0, $2
-	dc.b $FC, $E9
-	dc.b $2C, $F9
+	dc.b $FC, $F6
+	dc.b $2D, $6
 SuperSonicPLC_6DA: 	dc.b $0, $2
-	dc.b $FC, $FC
-	dc.b $2D, $C
+	dc.b $FD, $9
+	dc.b $2D, $19
 SuperSonicPLC_6E0: 	dc.b $0, $2
-	dc.b $FD, $F
-	dc.b $1D, $1F
+	dc.b $FD, $1C
+	dc.b $1D, $2C
 SuperSonicPLC_6E6: 	dc.b $0, $2
-	dc.b $FD, $21
-	dc.b $4D, $31
+	dc.b $FD, $2E
+	dc.b $4D, $3E
 SuperSonicPLC_6EC: 	dc.b $0, $2
-	dc.b $FD, $36
-	dc.b $7D, $46
+	dc.b $FD, $43
+	dc.b $7D, $53
 SuperSonicPLC_6F2: 	dc.b $0, $2
-	dc.b $FD, $4E
-	dc.b $3D, $5E
+	dc.b $FD, $5B
+	dc.b $3D, $6B
 SuperSonicPLC_6F8: 	dc.b $0, $2
-	dc.b $FD, $62
-	dc.b $1D, $72
+	dc.b $FD, $6F
+	dc.b $1D, $7F
 SuperSonicPLC_6FE: 	dc.b $0, $2
-	dc.b $FD, $74
-	dc.b $2D, $84
+	dc.b $FD, $81
+	dc.b $2D, $91
 SuperSonicPLC_704: 	dc.b $0, $2
-	dc.b $FD, $87
-	dc.b $D, $97
+	dc.b $FD, $94
+	dc.b $D, $A4
 SuperSonicPLC_70A: 	dc.b $0, $1
-	dc.b $ED, $98
+	dc.b $ED, $A5
 SuperSonicPLC_70E: 	dc.b $0, $1
-	dc.b $CD, $A7
+	dc.b $CD, $B4
 SuperSonicPLC_712: 	dc.b $0, $1
-	dc.b $ED, $B4
+	dc.b $ED, $C1
 SuperSonicPLC_716: 	dc.b $0, $2
-	dc.b $FD, $C3
-	dc.b $1D, $D3
+	dc.b $FD, $D0
+	dc.b $1D, $E0
 SuperSonicPLC_71C: 	dc.b $0, $2
-	dc.b $FD, $D5
-	dc.b $1D, $E5
+	dc.b $FD, $E2
+	dc.b $1D, $F2
 SuperSonicPLC_722: 	dc.b $0, $2
-	dc.b $FD, $E7
-	dc.b $2D, $F7
+	dc.b $FD, $F4
+	dc.b $2E, $4
 SuperSonicPLC_728: 	dc.b $0, $1
-	dc.b $DD, $FA
+	dc.b $DE, $7
 SuperSonicPLC_72C: 	dc.b $0, $1
-	dc.b $DE, $8
+	dc.b $DE, $15
 SuperSonicPLC_730: 	dc.b $0, $1
-	dc.b $DE, $16
+	dc.b $DE, $23
 SuperSonicPLC_734: 	dc.b $0, $2
-	dc.b $FE, $24
-	dc.b $1E, $34
+	dc.b $FE, $31
+	dc.b $1E, $41
 	even

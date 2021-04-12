@@ -4,16 +4,127 @@
     "node": "8c5398fb-53de-4a80-9ab8-1ca43871257c",
     "objects": [
         {
+            "uuid": "bcbd1e6d-174b-4a96-90d3-c55d4bff9df7",
+            "format": "Sonic 3&K Player.js",
+            "name": "Fire Shield",
+            "palettes": [],
+            "art": {
+                "path": "General/Sprites/Shields/Fire Shield.bin",
+                "compression": "Uncompressed",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "General/Sprites/Shields/Map - Fire Shield.asm",
+                "label": "FireShieldMap"
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "General/Sprites/Shields/DPLC - Fire Shield.asm",
+                "label": "FireShieldPLC"
+            }
+        },
+        {
+            "uuid": "5cbcbd1e-6d17-4baa-96d0-d3c55d4bff9d",
+            "format": "Sonic 3&K Player.js",
+            "name": "Lightning Shield",
+            "palettes": [],
+            "art": {
+                "path": "General/Sprites/Shields/Lightning Shield.bin",
+                "compression": "Uncompressed",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "General/Sprites/Shields/Map - Lightning Shield.asm",
+                "label": "LightningShieldMap"
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "General/Sprites/Shields/DPLC - Lightning Shield.asm",
+                "label": "LightningShieldPLC"
+            }
+        },
+        {
+            "uuid": "8a5cbcbd-1e6d-474b-aa96-d0d3c55d4bff",
+            "format": "Sonic 1.js",
+            "name": "object",
+            "palettes": [],
+            "art": {
+                "path": "",
+                "compression": "Uncompressed",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "label": ""
+            }
+        },
+        {
+            "uuid": "d0878a5c-bcbd-4e6d-974b-aa96d0d3c55d",
+            "format": "Sonic 3&K Object.js",
+            "name": "Monitor",
+            "palettes": [
+                {
+                    "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                    "length": 1
+                },
+                {
+                    "path": "Levels/AIZ/Palettes/Main.bin",
+                    "length": 3
+                }
+            ],
+            "art": {
+                "path": "General/Sprites/Monitors/Monitors.bin",
+                "compression": "Nemesis",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "General/Sprites/Monitors/Map - Monitor.asm",
+                "label": "MonitorMap"
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "label": ""
+            }
+        },
+        {
+            "uuid": "3b6afe47-d945-43f2-965c-43f498e9754a",
+            "format": "Sonic 3&K Object.js",
+            "name": "Monitor Icons",
+            "palettes": [],
+            "art": {
+                "path": "General/Sprites/Monitors/Monitors.bin",
+                "compression": "Nemesis",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "General/Sprites/Monitors/Map - Monitor Icons.asm",
+                "label": "MonitorIconMap"
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "label": ""
+            }
+        },
+        {
             "name": "Enemies",
             "children": [],
             "isDirectory": true,
-            "expanded": true
+            "expanded": true,
+            "uuid": "60340f4a-052d-4718-8419-cf9280bc1772"
         },
         {
             "name": "Bosses",
             "children": [],
             "isDirectory": true,
-            "expanded": true
+            "expanded": true,
+            "uuid": "340f4a05-2d67-48c4-99cf-9280bc17724c"
         },
         {
             "name": "Characters",
@@ -62,6 +173,14 @@
                                 {
                                     "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
                                     "length": 2
+                                },
+                                {
+                                    "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                                    "length": 1
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
                                 }
                             ],
                             "art": {
@@ -91,6 +210,10 @@
                                 {
                                     "path": "General/Sprites/Knuckles/Palettes/Main.bin",
                                     "length": 1
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
                                 }
                             ],
                             "art": {
@@ -112,7 +235,20 @@
                             "uuid": "006bde93-14ff-49a6-8834-00f2f14a1021",
                             "format": "Sonic 3&K Player.js",
                             "name": "Tails's Tails",
-                            "palettes": [],
+                            "palettes": [
+                                {
+                                    "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                                    "length": 2
+                                },
+                                {
+                                    "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                                    "length": 1
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
+                                }
+                            ],
                             "art": {
                                 "path": "General/Sprites/Tails/Art/Tails tails.bin",
                                 "compression": "Uncompressed",
@@ -140,6 +276,10 @@
                                 {
                                     "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
                                     "length": 2
+                                },
+                                {
+                                    "length": 1,
+                                    "blank": true
                                 }
                             ],
                             "art": {
