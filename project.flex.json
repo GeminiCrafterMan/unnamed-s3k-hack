@@ -1,7 +1,7 @@
 {
     "Flex": 2,
     "name": "",
-    "node": "8c5398fb-53de-4a80-9ab8-1ca43871257c",
+    "node": "8a5cbcbd-1e6d-474b-aa96-d0d3c55d4bff",
     "objects": [
         {
             "uuid": "bcbd1e6d-174b-4a96-90d3-c55d4bff9df7",
@@ -45,22 +45,22 @@
         },
         {
             "uuid": "8a5cbcbd-1e6d-474b-aa96-d0d3c55d4bff",
-            "format": "Sonic 1.js",
-            "name": "object",
+            "format": "Sonic 3&K Player.js",
+            "name": "Spike Shield",
             "palettes": [],
             "art": {
-                "path": "",
+                "path": "General\\Sprites\\Shields\\Spike Shield.bin",
                 "compression": "Uncompressed",
                 "offset": 0
             },
             "mappings": {
-                "path": "",
-                "label": ""
+                "path": "General\\Sprites\\Shields\\Map - Spike Shield.asm",
+                "label": "SpikeShieldMap"
             },
             "dplcs": {
-                "enabled": false,
-                "path": "",
-                "label": ""
+                "enabled": true,
+                "path": "General\\Sprites\\Shields\\DPLC - Spike Shield.asm",
+                "label": "SpikeShieldPLC"
             }
         },
         {
