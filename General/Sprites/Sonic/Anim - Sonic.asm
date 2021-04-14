@@ -34,6 +34,7 @@
 		dc.w AniSonic21-AniSonic
 		dc.w AniSonic22-AniSonic
 		dc.w AniSonic23-AniSonic
+        dc.w AniSonic24-AniSonic
 AniSonic00:	dc.b  $FF,   7,   8,   1,   2,   3,   4,   5,   6, $FF
 AniSonic01:	dc.b  $FF, $21, $22, $23, $24, $FF, $FF, $FF, $FF, $FF
 AniSonic02:	dc.b  $FE, $96, $97, $96, $98, $96, $99, $96, $9A, $FF
@@ -76,6 +77,10 @@ AniSonic20:	dc.b    9,   8,   9, $FF
 AniSonic21:	dc.b    3,   7, $FD,   0
 AniSonic22:	dc.b   $B, $90, $91, $92, $91, $FF
 AniSonic23:	dc.b   $B, $90, $91, $92, $91, $FD,   0
+AniSonic24: dc.b   0,  $DA, $DA, $DA, $DA, $DB, $DB, $DB, $DB
+		dc.b	$DC, $DC, $DC, $DC, $DC, $DC, $DC, $DC
+		dc.b	$DC,  $DC,  $DC,  $DC, $DC,  $DC,  $DC,  $DD
+		dc.b	$DC, -2, 2, $FE
 		even
 AniSuperSonic:	dc.w AniSuperSonic00-AniSuperSonic
 		dc.w AniSuperSonic01-AniSuperSonic
@@ -109,6 +114,10 @@ AniSuperSonic:	dc.w AniSuperSonic00-AniSuperSonic
 		dc.w AniSonic1D-AniSuperSonic
 		dc.w AniSonic1E-AniSuperSonic
 		dc.w AniSonic1F-AniSuperSonic
+		dc.w AniSonic20-AniSuperSonic
+		dc.w AniSonic21-AniSuperSonic
+		dc.w AniSonic22-AniSuperSonic
+		dc.w AniSonic23-AniSuperSonic
 AniSuperSonic00:dc.b  $FF,   1,   2,   3,   4,   5,   6,   7,   8, $FF
 AniSuperSonic01:dc.b  $FF, $21, $22, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 AniSuperSonic04:dc.b  $FD, $B6, $B7, $B8, $B9, $FF, $FF, $FF, $FF, $FF

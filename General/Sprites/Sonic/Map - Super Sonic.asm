@@ -220,36 +220,36 @@ SuperSonicMap_1B2: 	dc.w SuperSonicMap_135C-SuperSonicMap
 SuperSonicMap_1B4: 	dc.w SuperSonicMap_1376-SuperSonicMap
 SuperSonicMap_1B6: 	dc.w SuperSonicMap_138A-SuperSonicMap
 SuperSonicMap_1B8: 	dc.w SuperSonicMap_139E-SuperSonicMap
-SuperSonicMap_1BA: 	dc.w SuperSonicMap_13B2-SuperSonicMap
-SuperSonicMap_1BC: 	dc.w SuperSonicMap_13C6-SuperSonicMap
-SuperSonicMap_1BE: 	dc.w SuperSonicMap_13DA-SuperSonicMap
-SuperSonicMap_1C0: 	dc.w SuperSonicMap_13EE-SuperSonicMap
-SuperSonicMap_1C2: 	dc.w SuperSonicMap_13F6-SuperSonicMap
-SuperSonicMap_1C4: 	dc.w SuperSonicMap_1404-SuperSonicMap
-SuperSonicMap_1C6: 	dc.w SuperSonicMap_141E-SuperSonicMap
-SuperSonicMap_1C8: 	dc.w SuperSonicMap_1438-SuperSonicMap
-SuperSonicMap_1CA: 	dc.w SuperSonicMap_1452-SuperSonicMap
-SuperSonicMap_1CC: 	dc.w SuperSonicMap_146C-SuperSonicMap
-SuperSonicMap_1CE: 	dc.w SuperSonicMap_1480-SuperSonicMap
-SuperSonicMap_1D0: 	dc.w SuperSonicMap_148E-SuperSonicMap
-SuperSonicMap_1D2: 	dc.w SuperSonicMap_14A8-SuperSonicMap
-SuperSonicMap_1D4: 	dc.w SuperSonicMap_14BC-SuperSonicMap
-SuperSonicMap_1D6: 	dc.w SuperSonicMap_14CA-SuperSonicMap
-SuperSonicMap_1D8: 	dc.w SuperSonicMap_14E4-SuperSonicMap
-SuperSonicMap_1DA: 	dc.w SuperSonicMap_14F8-SuperSonicMap
-SuperSonicMap_1DC: 	dc.w SuperSonicMap_150C-SuperSonicMap
-SuperSonicMap_1DE: 	dc.w SuperSonicMap_1526-SuperSonicMap
-SuperSonicMap_1E0: 	dc.w SuperSonicMap_1534-SuperSonicMap
-SuperSonicMap_1E2: 	dc.w SuperSonicMap_1548-SuperSonicMap
-SuperSonicMap_1E4: 	dc.w SuperSonicMap_1556-SuperSonicMap
-SuperSonicMap_1E6: 	dc.w SuperSonicMap_1564-SuperSonicMap
-SuperSonicMap_1E8: 	dc.w SuperSonicMap_1572-SuperSonicMap
-SuperSonicMap_1EA: 	dc.w SuperSonicMap_158C-SuperSonicMap
-SuperSonicMap_1EC: 	dc.w SuperSonicMap_15A0-SuperSonicMap
-SuperSonicMap_1EE: 	dc.w SuperSonicMap_15AE-SuperSonicMap
-SuperSonicMap_1F0: 	dc.w SuperSonicMap_15BC-SuperSonicMap
-SuperSonicMap_1F2: 	dc.w SuperSonicMap_15D0-SuperSonicMap
-SuperSonicMap_1F4: 	dc.w SuperSonicMap_15DE-SuperSonicMap
+SuperSonicMap_1BA: 	dc.w SuperSonicMap_13B8-SuperSonicMap
+SuperSonicMap_1BC: 	dc.w SuperSonicMap_13D2-SuperSonicMap
+SuperSonicMap_1BE: 	dc.w SuperSonicMap_13E6-SuperSonicMap
+SuperSonicMap_1C0: 	dc.w SuperSonicMap_13FA-SuperSonicMap
+SuperSonicMap_1C2: 	dc.w SuperSonicMap_1402-SuperSonicMap
+SuperSonicMap_1C4: 	dc.w SuperSonicMap_1410-SuperSonicMap
+SuperSonicMap_1C6: 	dc.w SuperSonicMap_142A-SuperSonicMap
+SuperSonicMap_1C8: 	dc.w SuperSonicMap_1444-SuperSonicMap
+SuperSonicMap_1CA: 	dc.w SuperSonicMap_145E-SuperSonicMap
+SuperSonicMap_1CC: 	dc.w SuperSonicMap_1478-SuperSonicMap
+SuperSonicMap_1CE: 	dc.w SuperSonicMap_148C-SuperSonicMap
+SuperSonicMap_1D0: 	dc.w SuperSonicMap_149A-SuperSonicMap
+SuperSonicMap_1D2: 	dc.w SuperSonicMap_14B4-SuperSonicMap
+SuperSonicMap_1D4: 	dc.w SuperSonicMap_14C8-SuperSonicMap
+SuperSonicMap_1D6: 	dc.w SuperSonicMap_14D6-SuperSonicMap
+SuperSonicMap_1D8: 	dc.w SuperSonicMap_14F0-SuperSonicMap
+SuperSonicMap_1DA: 	dc.w SuperSonicMap_1504-SuperSonicMap
+SuperSonicMap_1DC: 	dc.w SuperSonicMap_1518-SuperSonicMap
+SuperSonicMap_1DE: 	dc.w SuperSonicMap_1532-SuperSonicMap
+SuperSonicMap_1E0: 	dc.w SuperSonicMap_1540-SuperSonicMap
+SuperSonicMap_1E2: 	dc.w SuperSonicMap_1554-SuperSonicMap
+SuperSonicMap_1E4: 	dc.w SuperSonicMap_1562-SuperSonicMap
+SuperSonicMap_1E6: 	dc.w SuperSonicMap_1570-SuperSonicMap
+SuperSonicMap_1E8: 	dc.w SuperSonicMap_157E-SuperSonicMap
+SuperSonicMap_1EA: 	dc.w SuperSonicMap_1598-SuperSonicMap
+SuperSonicMap_1EC: 	dc.w SuperSonicMap_15AC-SuperSonicMap
+SuperSonicMap_1EE: 	dc.w SuperSonicMap_15BA-SuperSonicMap
+SuperSonicMap_1F0: 	dc.w SuperSonicMap_15C8-SuperSonicMap
+SuperSonicMap_1F2: 	dc.w SuperSonicMap_15DC-SuperSonicMap
+SuperSonicMap_1F4: 	dc.w SuperSonicMap_15EA-SuperSonicMap
 SuperSonicMap_1F6: 	dc.b $0, $0
 SuperSonicMap_1F8: 	dc.b $0, $3
 	dc.b $FC, $A, $0, $0, $FF, $EC
@@ -1143,130 +1143,132 @@ SuperSonicMap_135C: 	dc.b $0, $4
 	dc.b $4, $C, $0, $D, $FF, $F0
 	dc.b $C, $8, $0, $11, $FF, $F8
 SuperSonicMap_1376: 	dc.b $0, $3
-	dc.b $EC, $9, $0, $0, $FF, $F0
-	dc.b $FC, $D, $0, $6, $FF, $F0
-	dc.b $C, $4, $0, $E, $FF, $F8
+	dc.b $F4, $D, $0, $0, $FF, $EB
+	dc.b $EC, $4, $0, $8, $FF, $F3
+	dc.b $4, $9, $0, $A, $FF, $F3
 SuperSonicMap_138A: 	dc.b $0, $3
+	dc.b $F4, $D, $0, $0, $FF, $EB
+	dc.b $EC, $4, $0, $8, $FF, $F3
+	dc.b $4, $D, $0, $A, $FF, $F3
+SuperSonicMap_139E: 	dc.b $0, $4
+	dc.b $F4, $D, $0, $0, $FF, $EB
+	dc.b $EC, $4, $0, $8, $FF, $F3
+	dc.b $4, $9, $0, $A, $FF, $F3
+	dc.b $4, $0, $0, $10, $0, $B
+SuperSonicMap_13B8: 	dc.b $0, $4
+	dc.b $F4, $D, $0, $0, $FF, $EB
+	dc.b $EC, $4, $0, $8, $FF, $F3
+	dc.b $4, $9, $0, $A, $FF, $F3
+	dc.b $4, $0, $0, $10, $0, $B
+SuperSonicMap_13D2: 	dc.b $0, $3
 	dc.b $EC, $9, $0, $0, $FF, $F0
 	dc.b $FC, $D, $0, $6, $FF, $F0
 	dc.b $C, $4, $0, $E, $FF, $F8
-SuperSonicMap_139E: 	dc.b $0, $3
+SuperSonicMap_13E6: 	dc.b $0, $3
 	dc.b $EC, $9, $0, $0, $FF, $F0
 	dc.b $FC, $D, $0, $6, $FF, $F0
 	dc.b $C, $4, $0, $E, $FF, $F8
-SuperSonicMap_13B2: 	dc.b $0, $3
-	dc.b $EC, $9, $0, $0, $FF, $F0
-	dc.b $FC, $D, $0, $6, $FF, $F0
-	dc.b $C, $4, $0, $E, $FF, $F8
-SuperSonicMap_13C6: 	dc.b $0, $3
-	dc.b $EC, $9, $0, $0, $FF, $F0
-	dc.b $FC, $D, $0, $6, $FF, $F0
-	dc.b $C, $4, $0, $E, $FF, $F8
-SuperSonicMap_13DA: 	dc.b $0, $3
-	dc.b $EC, $9, $0, $0, $FF, $F0
-	dc.b $FC, $D, $0, $6, $FF, $F0
-	dc.b $C, $4, $0, $E, $FF, $F8
-SuperSonicMap_13EE: 	dc.b $0, $1
+SuperSonicMap_13FA: 	dc.b $0, $1
 	dc.b $F0, $B, $0, $0, $FF, $F4
-SuperSonicMap_13F6: 	dc.b $0, $2
+SuperSonicMap_1402: 	dc.b $0, $2
 	dc.b $EC, $B, $0, $0, $FF, $F4
 	dc.b $C, $8, $0, $C, $FF, $F4
-SuperSonicMap_1404: 	dc.b $0, $4
+SuperSonicMap_1410: 	dc.b $0, $4
 	dc.b $EC, $9, $0, $0, $FF, $F0
 	dc.b $FC, $C, $0, $6, $FF, $F0
 	dc.b $4, $8, $0, $A, $FF, $F8
 	dc.b $C, $4, $0, $D, $0, $0
-SuperSonicMap_141E: 	dc.b $0, $4
+SuperSonicMap_142A: 	dc.b $0, $4
 	dc.b $E8, $B, $0, $0, $FF, $EC
 	dc.b $F8, $5, $0, $C, $0, $4
 	dc.b $8, $8, $0, $10, $FF, $EC
 	dc.b $10, $4, $0, $13, $FF, $EC
-SuperSonicMap_1438: 	dc.b $0, $4
+SuperSonicMap_1444: 	dc.b $0, $4
 	dc.b $E8, $9, $0, $0, $FF, $F0
 	dc.b $F8, $D, $0, $6, $FF, $F0
 	dc.b $8, $4, $0, $E, $FF, $F8
 	dc.b $10, $8, $0, $10, $FF, $F8
-SuperSonicMap_1452: 	dc.b $0, $4
+SuperSonicMap_145E: 	dc.b $0, $4
 	dc.b $E8, $9, $0, $0, $FF, $F0
 	dc.b $F8, $C, $0, $6, $FF, $F0
 	dc.b $0, $8, $0, $A, $FF, $F0
 	dc.b $8, $9, $0, $D, $FF, $F8
-SuperSonicMap_146C: 	dc.b $0, $3
+SuperSonicMap_1478: 	dc.b $0, $3
 	dc.b $E8, $B, $0, $0, $FF, $F0
 	dc.b $8, $4, $0, $C, $FF, $F8
 	dc.b $10, $8, $0, $E, $FF, $F8
-SuperSonicMap_1480: 	dc.b $0, $2
+SuperSonicMap_148C: 	dc.b $0, $2
 	dc.b $E8, $B, $0, $0, $FF, $F4
 	dc.b $8, $9, $0, $C, $FF, $F4
-SuperSonicMap_148E: 	dc.b $0, $4
+SuperSonicMap_149A: 	dc.b $0, $4
 	dc.b $E8, $9, $0, $0, $FF, $F8
 	dc.b $F8, $C, $0, $6, $FF, $F0
 	dc.b $0, $8, $0, $A, $FF, $F8
 	dc.b $8, $9, $0, $D, $FF, $F0
-SuperSonicMap_14A8: 	dc.b $0, $3
+SuperSonicMap_14B4: 	dc.b $0, $3
 	dc.b $E8, $C, $0, $0, $FF, $F0
 	dc.b $F0, $A, $0, $4, $FF, $F8
 	dc.b $8, $9, $0, $D, $FF, $F0
-SuperSonicMap_14BC: 	dc.b $0, $2
+SuperSonicMap_14C8: 	dc.b $0, $2
 	dc.b $E8, $B, $0, $0, $FF, $F4
 	dc.b $8, $9, $0, $C, $FF, $F4
-SuperSonicMap_14CA: 	dc.b $0, $4
+SuperSonicMap_14D6: 	dc.b $0, $4
 	dc.b $E8, $9, $0, $0, $FF, $EC
 	dc.b $F8, $C, $0, $6, $FF, $EC
 	dc.b $0, $8, $0, $A, $FF, $EC
 	dc.b $8, $D, $0, $D, $FF, $F4
-SuperSonicMap_14E4: 	dc.b $0, $3
+SuperSonicMap_14F0: 	dc.b $0, $3
 	dc.b $EC, $4, $0, $0, $0, $0
 	dc.b $F4, $F, $0, $2, $FF, $F8
 	dc.b $FC, $6, $0, $12, $FF, $E8
-SuperSonicMap_14F8: 	dc.b $0, $3
+SuperSonicMap_1504: 	dc.b $0, $3
 	dc.b $E8, $9, $0, $0, $FF, $F0
 	dc.b $F8, $D, $0, $6, $FF, $F0
 	dc.b $8, $9, $0, $E, $FF, $F8
-SuperSonicMap_150C: 	dc.b $0, $4
+SuperSonicMap_1518: 	dc.b $0, $4
 	dc.b $EC, $4, $0, $0, $0, $0
 	dc.b $F4, $D, $0, $2, $FF, $E8
 	dc.b $F4, $5, $0, $A, $0, $8
 	dc.b $4, $5, $0, $E, $FF, $F0
-SuperSonicMap_1526: 	dc.b $0, $2
+SuperSonicMap_1532: 	dc.b $0, $2
 	dc.b $EC, $F, $0, $0, $FF, $F0
 	dc.b $C, $8, $0, $10, $FF, $F0
-SuperSonicMap_1534: 	dc.b $0, $3
+SuperSonicMap_1540: 	dc.b $0, $3
 	dc.b $EC, $E, $0, $0, $FF, $F0
 	dc.b $4, $8, $0, $C, $FF, $F0
 	dc.b $C, $4, $0, $F, $FF, $F8
-SuperSonicMap_1548: 	dc.b $0, $2
+SuperSonicMap_1554: 	dc.b $0, $2
 	dc.b $EC, $B, $0, $0, $FF, $F4
 	dc.b $C, $8, $0, $C, $FF, $F4
-SuperSonicMap_1556: 	dc.b $0, $2
+SuperSonicMap_1562: 	dc.b $0, $2
 	dc.b $EC, $B, $0, $0, $FF, $F4
 	dc.b $C, $0, $0, $C, $FF, $FC
-SuperSonicMap_1564: 	dc.b $0, $2
+SuperSonicMap_1570: 	dc.b $0, $2
 	dc.b $EC, $B, $0, $0, $FF, $F4
 	dc.b $C, $8, $0, $C, $FF, $F4
-SuperSonicMap_1572: 	dc.b $0, $4
+SuperSonicMap_157E: 	dc.b $0, $4
 	dc.b $EC, $D, $0, $0, $FF, $F0
 	dc.b $FC, $8, $0, $8, $FF, $F0
 	dc.b $4, $C, $0, $B, $FF, $F0
 	dc.b $C, $8, $0, $F, $FF, $F8
-SuperSonicMap_158C: 	dc.b $0, $3
+SuperSonicMap_1598: 	dc.b $0, $3
 	dc.b $EC, $8, $0, $0, $FF, $F0
 	dc.b $F4, $E, $0, $3, $FF, $F0
 	dc.b $C, $8, $0, $F, $FF, $F0
-SuperSonicMap_15A0: 	dc.b $0, $2
+SuperSonicMap_15AC: 	dc.b $0, $2
 	dc.b $EC, $F, $0, $0, $FF, $F0
 	dc.b $C, $8, $0, $10, $FF, $F8
-SuperSonicMap_15AE: 	dc.b $0, $2
+SuperSonicMap_15BA: 	dc.b $0, $2
 	dc.b $EC, $B, $0, $0, $FF, $F4
 	dc.b $C, $4, $0, $C, $FF, $F4
-SuperSonicMap_15BC: 	dc.b $0, $3
+SuperSonicMap_15C8: 	dc.b $0, $3
 	dc.b $EC, $A, $0, $0, $FF, $F4
 	dc.b $4, $4, $0, $9, $FF, $FC
 	dc.b $C, $8, $0, $B, $FF, $F4
-SuperSonicMap_15D0: 	dc.b $0, $2
+SuperSonicMap_15DC: 	dc.b $0, $2
 	dc.b $EC, $B, $0, $0, $FF, $F4
 	dc.b $C, $4, $0, $C, $FF, $FC
-SuperSonicMap_15DE: 	dc.b $0, $2
+SuperSonicMap_15EA: 	dc.b $0, $2
 	dc.b $EC, $E, $0, $0, $FF, $F0
 	dc.b $4, $9, $0, $C, $FF, $F0
 	even

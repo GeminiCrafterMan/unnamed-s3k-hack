@@ -85,7 +85,8 @@ namespace S3KObjectDefinitions.Common
 				"Thunder Barrier",
 				"Aqua Barrier",
 				"Invincibility",
-				"Super"
+				"Super",
+                "Spike Barrier"
 			};
 
 			var subtypes = new byte[subtypeNames.Length];
