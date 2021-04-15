@@ -166,6 +166,26 @@
                             }
                         },
                         {
+                            "uuid": "c17c70f4-90e1-4f6e-a3fc-339b5052dce5",
+                            "format": "Sonic 3&K Player.js",
+                            "name": "Sonic Extra",
+                            "palettes": [],
+                            "art": {
+                                "path": "General\\Sprites\\Sonic\\Art\\Sonic Extra.bin",
+                                "compression": "Uncompressed",
+                                "offset": 0
+                            },
+                            "mappings": {
+                                "path": "General\\Sprites\\Sonic\\Map - Sonic Extra.asm",
+                                "label": "SonicMap_Extra"
+                            },
+                            "dplcs": {
+                                "enabled": true,
+                                "path": "General\\Sprites\\Sonic\\Sonic Extra pattern load cues.asm",
+                                "label": "SonicPLC_Extra"
+                            }
+                        },
+                        {
                             "uuid": "d5bc0c7b-0d17-4a8f-a4a0-5766618d376d",
                             "format": "Sonic 3&K Player.js",
                             "name": "Super Sonic",

@@ -35,52 +35,54 @@
 		dc.w AniSonic22-AniSonic
 		dc.w AniSonic23-AniSonic
         dc.w AniSonic24-AniSonic
-AniSonic00:	dc.b  $FF,   7,   8,   1,   2,   3,   4,   5,   6, $FF
-AniSonic01:	dc.b  $FF, $21, $22, $23, $24, $FF, $FF, $FF, $FF, $FF
-AniSonic02:	dc.b  $FE, $96, $97, $96, $98, $96, $99, $96, $9A, $FF
-AniSonic03:	dc.b  $FE, $96, $97, $96, $98, $96, $99, $96, $9A, $FF
-AniSonic04:	dc.b  $FD, $B6, $B7, $B8, $B9, $FF, $FF, $FF, $FF, $FF
-AniSonic05:	dc.b    5, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA
+		dc.w AniSonic25-AniSonic
+AniSonic00:	dc.b  $FF,   7,   8,   1,   2,   3,   4,   5,   6, $FF ; Walk
+AniSonic01:	dc.b  $FF, $21, $22, $23, $24, $FF, $FF, $FF, $FF, $FF ; Run
+AniSonic02:	dc.b  $FE, $96, $97, $96, $98, $96, $99, $96, $9A, $FF ; Spin
+AniSonic03:	dc.b  $FE, $96, $97, $96, $98, $96, $99, $96, $9A, $FF ; Spin 2
+AniSonic04:	dc.b  $FD, $B6, $B7, $B8, $B9, $FF, $FF, $FF, $FF, $FF ; Push
+AniSonic05:	dc.b    5, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA ; Wait
 		dc.b  $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA
 		dc.b  $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA, $BA
 		dc.b  $BA, $BA, $BA, $BB, $BC, $BC, $BD, $BD, $BE, $BE, $BD, $BD, $BE, $BE, $BD, $BD
 		dc.b  $BE, $BE, $BD, $BD, $BE, $BE, $BD, $BD, $BE, $BE, $BD, $BD, $BE, $BE, $BD, $BD
 		dc.b  $BE, $BE, $BD, $BD, $BE, $BE, $AD, $AD, $AD, $AD, $AD, $AD, $AE, $AE, $AE, $AE
 		dc.b  $AE, $AE, $AF, $D9, $D9, $D9, $D9, $D9, $D9, $AF, $AF, $FE, $35
-AniSonic06:	dc.b    7, $A4, $A5, $A6, $FF
-AniSonic07:	dc.b    5, $C3, $C4, $FE,   1
-AniSonic08:	dc.b    5, $9B, $9C, $FE,   1
-AniSonic09:	dc.b    0, $86, $87, $86, $88, $86, $89, $86, $8A, $86, $8B, $FF
-AniSonic0A:	dc.b    9, $BA, $C5, $C6, $C6, $C6, $C6, $C6, $C6, $C7, $C7, $C7, $C7, $C7, $C7, $C7
+AniSonic06:	dc.b    7, $A4, $A5, $A6, $FF ; Balance 1
+AniSonic07:	dc.b    5, $C3, $C4, $FE,   1 ; Look up
+AniSonic08:	dc.b    5, $9B, $9C, $FE,   1 ; Duck
+AniSonic09:	dc.b    0, $86, $87, $86, $88, $86, $89, $86, $8A, $86, $8B, $FF ; Spin Dash
+AniSonic0A:	dc.b    9, $BA, $C5, $C6, $C6, $C6, $C6, $C6, $C6, $C7, $C7, $C7, $C7, $C7, $C7, $C7 ; Whistle
 		dc.b  $C7, $C7, $C7, $C7, $C7, $FD,   0
-AniSonic0B:	dc.b   $F, $8F, $FF
-AniSonic0C:	dc.b    5, $A1, $A2, $A3, $FF
-AniSonic0D:	dc.b    3, $9D, $9E, $9F, $A0, $FD,   0
-AniSonic0E:	dc.b    7, $C8, $FF
-AniSonic0F:	dc.b    7, $C8, $C9, $CA, $CB, $CC, $CD, $CE, $CF, $FF
-AniSonic10:	dc.b  $2F, $8E, $FD,   0
-AniSonic11:	dc.b    1, $AA, $AB, $FF
-AniSonic12:	dc.b   $F, $43, $43, $43, $FE,   1
-AniSonic13:	dc.b    7, $B0, $B2, $B2, $B2, $B2, $B2, $B2, $B1, $B2, $B3, $B2, $FE,   4
-AniSonic14:	dc.b  $13, $91, $FF
-AniSonic15:	dc.b   $B, $AC, $AC,   3,   4, $FD,   0
-AniSonic16:	dc.b  $20, $A8, $FF
-AniSonic17:	dc.b  $20, $A9, $FF
-AniSonic18:	dc.b  $20, $A7, $FF
-AniSonic19:	dc.b    9, $D7, $D8, $FF
-AniSonic1A:	dc.b  $40, $8D, $FF
-AniSonic1B:	dc.b    9, $8C, $8D, $FF
-AniSonic1C:	dc.b  $77,   0, $FF
-AniSonic1D:	dc.b  $13, $D0, $D1, $FF
-AniSonic1E:	dc.b    3, $CF, $C8, $C9, $CA, $CB, $FE,   4
-AniSonic20:	dc.b    9,   8,   9, $FF
-AniSonic21:	dc.b    3,   7, $FD,   0
-AniSonic22:	dc.b   $B, $90, $91, $92, $91, $FF
-AniSonic23:	dc.b   $B, $90, $91, $92, $91, $FD,   0
-AniSonic24: dc.b   0,  $DA, $DA, $DA, $DA, $DB, $DB, $DB, $DB
+AniSonic0B:	dc.b   $F, $8F, $FF ; Pull on MGZ thing
+AniSonic0C:	dc.b    5, $A1, $A2, $A3, $FF ; Balance 2
+AniSonic0D:	dc.b    3, $9D, $9E, $9F, $A0, $FD,   0 ; Skid
+AniSonic0E:	dc.b    7, $C8, $FF ; Float (fwd)
+AniSonic0F:	dc.b    7, $C8, $C9, $CA, $CB, $CC, $CD, $CE, $CF, $FF ; Float (rotate)
+AniSonic10:	dc.b  $2F, $8E, $FD,   0 ; Spring
+AniSonic11:	dc.b    1, $AA, $AB, $FF ; Hang from pole
+AniSonic12:	dc.b   $F, $43, $43, $43, $FE,   1 ; Rotate...?
+AniSonic13:	dc.b    7, $B0, $B2, $B2, $B2, $B2, $B2, $B2, $B1, $B2, $B3, $B2, $FE,   4 ; Win
+AniSonic14:	dc.b  $13, $91, $FF ; Hang
+AniSonic15:	dc.b   $B, $AC, $AC,   3,   4, $FD,   0 ; Bubble
+AniSonic16:	dc.b  $20, $A8, $FF ; Burnt
+AniSonic17:	dc.b  $20, $A9, $FF ; Drown
+AniSonic18:	dc.b  $20, $A7, $FF ; Die
+AniSonic19:	dc.b    9, $D7, $D8, $FF ; Slide
+AniSonic1A:	dc.b  $40, $8D, $FF ; Hurt
+AniSonic1B:	dc.b    9, $8C, $8D, $FF ; Slide 2??
+AniSonic1C:	dc.b  $77,   0, $FF ; Blank
+AniSonic1D:	dc.b  $13, $D0, $D1, $FF ; Slide 3??? Why are there 3 copies of the hurt frames.
+AniSonic1E:	dc.b    3, $CF, $C8, $C9, $CA, $CB, $FE,   4 ; Float 2
+AniSonic20:	dc.b    9,   8,   9, $FF ; what
+AniSonic21:	dc.b    3,   7, $FD,   0 ; What????
+AniSonic22:	dc.b   $B, $90, $91, $92, $91, $FF ; Hang 2
+AniSonic23:	dc.b   $B, $90, $91, $92, $91, $FD,   0 ; Hang 3?
+AniSonic24: dc.b   0,  $DA, $DA, $DA, $DA, $DB, $DB, $DB, $DB ; Peelout charge
 		dc.b	$DC, $DC, $DC, $DC, $DC, $DC, $DC, $DC
 		dc.b	$DC,  $DC,  $DC,  $DC, $DC,  $DC,  $DC,  $DD
 		dc.b	$DC, -2, 2, $FE
+AniSonic25: dc.b	$FF, 1, 2, 3, 4, $FF, $FF, $FF, $FF, $FF
 		even
 AniSuperSonic:	dc.w AniSuperSonic00-AniSuperSonic
 		dc.w AniSuperSonic01-AniSuperSonic
@@ -118,6 +120,8 @@ AniSuperSonic:	dc.w AniSuperSonic00-AniSuperSonic
 		dc.w AniSonic21-AniSuperSonic
 		dc.w AniSonic22-AniSuperSonic
 		dc.w AniSonic23-AniSuperSonic
+		dc.w AniSonic24-AniSuperSonic
+		dc.w AniSonic25-AniSuperSonic
 AniSuperSonic00:dc.b  $FF,   1,   2,   3,   4,   5,   6,   7,   8, $FF
 AniSuperSonic01:dc.b  $FF, $21, $22, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 AniSuperSonic04:dc.b  $FD, $B6, $B7, $B8, $B9, $FF, $FF, $FF, $FF, $FF

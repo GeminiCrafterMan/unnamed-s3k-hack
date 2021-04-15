@@ -21,15 +21,8 @@
  
 Sonic_DashLaunch:
 		move.b	#$24,anim(a0) ;charging peelout animation (walking to running to peelout sprites)
-		tst.b	(Reverse_gravity_flag).w
-		bne.s	peelcheckrev
 		btst	#button_up,(Ctrl_1_logical).w ; is up being pressed?
 		bne.w	Sonic_DashCharge
-		bra.s	peelcont
-peelcheckrev:
-		btst	#button_down,(Ctrl_1_logical).w
-		bne.w	Sonic_DashCharge
-peelcont:
 		bclr	#1,spin_dash_flag(a0)	; stop Dashing
 		cmpi.b	#$1E,spin_dash_counter(a0)	; have we been charging long enough?
 		bne.s	Sonic_Dash_Stop_Sound
