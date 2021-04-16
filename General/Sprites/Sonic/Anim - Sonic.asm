@@ -36,6 +36,7 @@
 		dc.w AniSonic23-AniSonic
         dc.w AniSonic24-AniSonic
 		dc.w AniSonic25-AniSonic
+		dc.w AniSonic26-AniSonic
 AniSonic00:	dc.b  $FF,   7,   8,   1,   2,   3,   4,   5,   6, $FF ; Walk
 AniSonic01:	dc.b  $FF, $21, $22, $23, $24, $FF, $FF, $FF, $FF, $FF ; Run
 AniSonic02:	dc.b  $FE, $96, $97, $96, $98, $96, $99, $96, $9A, $FF ; Spin
@@ -59,7 +60,7 @@ AniSonic0C:	dc.b    5, $A1, $A2, $A3, $FF ; Balance 2
 AniSonic0D:	dc.b    3, $9D, $9E, $9F, $A0, $FD,   0 ; Skid
 AniSonic0E:	dc.b    7, $C8, $FF ; Float (fwd)
 AniSonic0F:	dc.b    7, $C8, $C9, $CA, $CB, $CC, $CD, $CE, $CF, $FF ; Float (rotate)
-AniSonic10:	dc.b  $2F, $8E, $FD,   0 ; Spring
+AniSonic10:	dc.b  $2F, $8E, $FD, $25 ; Spring
 AniSonic11:	dc.b    1, $AA, $AB, $FF ; Hang from pole
 AniSonic12:	dc.b   $F, $43, $43, $43, $FE,   1 ; Rotate...?
 AniSonic13:	dc.b    7, $B0, $B2, $B2, $B2, $B2, $B2, $B2, $B1, $B2, $B3, $B2, $FE,   4 ; Win
@@ -80,9 +81,9 @@ AniSonic22:	dc.b   $B, $90, $91, $92, $91, $FF ; Hang 2
 AniSonic23:	dc.b   $B, $90, $91, $92, $91, $FD,   0 ; Hang 3?
 AniSonic24: dc.b   0,  $DA, $DA, $DA, $DA, $DB, $DB, $DB, $DB ; Peelout charge
 		dc.b	$DC, $DC, $DC, $DC, $DC, $DC, $DC, $DC
-		dc.b	$DC,  $DC,  $DC,  $DC, $DC,  $DC,  $DC,  $DD
-		dc.b	$DC, -2, 2, $FE
-AniSonic25: dc.b	$FF, 1, 2, 3, 4, $FF, $FF, $FF, $FF, $FF
+		dc.b	$DC,  $DC,  $DC,  $DC, $DC,  $DC,  $DC,  $DD, -2, 2, $FE
+AniSonic25: dc.b	$13, $DE, $FF	; Falling
+AniSonic26: dc.b	$FF, 1, 2, 3, 4, $FF, $FF, $FF, $FF, $FF	; Fast run
 		even
 AniSuperSonic:	dc.w AniSuperSonic00-AniSuperSonic
 		dc.w AniSuperSonic01-AniSuperSonic
@@ -122,6 +123,7 @@ AniSuperSonic:	dc.w AniSuperSonic00-AniSuperSonic
 		dc.w AniSonic23-AniSuperSonic
 		dc.w AniSonic24-AniSuperSonic
 		dc.w AniSonic25-AniSuperSonic
+		dc.w AniSonic26-AniSuperSonic
 AniSuperSonic00:dc.b  $FF,   1,   2,   3,   4,   5,   6,   7,   8, $FF
 AniSuperSonic01:dc.b  $FF, $21, $22, $FF, $FF, $FF, $FF, $FF, $FF, $FF
 AniSuperSonic04:dc.b  $FD, $B6, $B7, $B8, $B9, $FF, $FF, $FF, $FF, $FF
