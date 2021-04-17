@@ -35,7 +35,6 @@
 		dc.w AniKnuckles22-AniKnuckles
 		dc.w AniKnuckles23-AniKnuckles
 		dc.w AniKnuckles24-AniKnuckles
-		dc.w AniKnuckles25-AniKnuckles
 AniKnuckles00:	dc.b  $FF,   7,	  8,   1,   2,	 3,   4,   5,	6, $FF
 AniKnuckles01:	dc.b  $FF, $21,	$22, $23, $24, $FF, $FF, $FF, $FF, $FF
 AniKnuckles02:	dc.b  $FE, $9A,	$96, $9A, $97, $9A, $98, $9A, $99, $FF
@@ -84,5 +83,4 @@ AniKnuckles22:	dc.b   $F, $CD,	$FD,   0
 AniKnuckles23:	dc.b   $F, $9C,	$FD,   0
 AniKnuckles24:	dc.b	7, $B1,	$B3, $B3, $B3, $B3, $B3, $B3, $B2, $B3,	$B4, $B3, $FE,	 4
 AniKnuckles1F:	dc.b	2, $EB,	$EB, $EC, $ED, $EC, $ED, $EC, $ED, $EC,	$ED, $EC, $ED, $FD,   0
-AniKnuckles25:	dc.b	1, 1, 2, $FF
 	even
