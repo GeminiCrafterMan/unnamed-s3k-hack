@@ -1,7 +1,7 @@
 {
     "Flex": 2,
     "name": "",
-    "node": "cb007149-4a4f-4034-9092-98f85d51211b",
+    "node": "6dbda8ab-0e44-4306-b28d-3c0587bb600d",
     "objects": [
         {
             "uuid": "bcbd1e6d-174b-4a96-90d3-c55d4bff9df7",
@@ -335,26 +335,6 @@
                                 "enabled": true,
                                 "path": "General\\Sprites\\Knuckles\\Knuckles Extra pattern load cues.asm",
                                 "label": "KnucklesPLC_Extra"
-                            }
-                        },
-                        {
-                            "uuid": "21fccfa4-cd3d-4dc5-ba6d-f2450f7788f9",
-                            "format": "Sonic 3&K Player.js",
-                            "name": "Super Knuckles",
-                            "palettes": [],
-                            "art": {
-                                "path": "General\\Sprites\\Knuckles\\Art\\Super Knuckles.bin",
-                                "compression": "Uncompressed",
-                                "offset": 0
-                            },
-                            "mappings": {
-                                "path": "General\\Sprites\\Knuckles\\Map - Super Knuckles.asm",
-                                "label": "SuperKnucklesMap"
-                            },
-                            "dplcs": {
-                                "enabled": true,
-                                "path": "General\\Sprites\\Knuckles\\Super Knuckles pattern load cues.asm",
-                                "label": "SuperKnucklesPLC"
                             }
                         }
                     ],
