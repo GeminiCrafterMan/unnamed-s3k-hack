@@ -1,0 +1,1 @@
+wine cmd.exe /c "Build Scripts/buildS3Complete.bat"

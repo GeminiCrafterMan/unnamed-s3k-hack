@@ -293,7 +293,9 @@ Save_pointer :=			*			; pointer to the active save slot in 1 player mode
 				ds.l 1			; Sonic 3 has a different address... So uh... Yes
 			ds.w 1				; unused
 Emerald_flicker_flag		ds.w 1			; controls the emerald flicker in save screen and special stage results.
-			ds.b $44			; unused
+			ds.b $20			; unused
+waterValues					ds.l 1	; DynaWater
+			ds.b $20			; unused
 Saved_data :=			*			; saved data from 1 player mode
 				ds.b $54		; Sonic 3 has a different address... So uh... Yes
 Ring_status_table		ds.b $400		; 1 word per ring

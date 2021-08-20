@@ -1,10 +1,10 @@
 		btst	#1,spin_dash_flag(a0)
 		bne.s	Sonic_DashLaunch
 		cmpi.b	#7,anim(a0) ;check to see if your looking up
-		bne.s	peelreturn
+		bne.s	.peelreturn
 		move.b	(Ctrl_1_pressed_logical).w,d0
 		andi.b	#button_B_mask|button_C_mask|button_A_mask,d0 ; is A, B or C pressed?
-		beq.w	peelreturn
+		beq.w	.peelreturn
 		move.b	#1,anim(a0)
 		move.w	#0,spin_dash_counter(a0)
 ;		move.w	#$D2,d0
@@ -15,7 +15,7 @@
 		bsr.w	Player_LevelBound
 		bsr.w	Player_AnglePos
  
-	peelreturn:
+	.peelreturn:
 		rts	
 ; ---------------------------------------------------------------------------
  
@@ -37,10 +37,10 @@ Sonic_DashLaunch:
 		addi.w	#$2000,d0
 		;move.w	d0,(v_cameralag).w
 		btst	#0,status(a0)
-		beq.s	peeldontflip
+		beq.s	.peeldontflip
 		neg.w	ground_vel(a0)
  
-peeldontflip:
+	.peeldontflip:
 		;bset	#2,status(a0)
 		bclr	#7,status(a0)
 ;		move.w	#$D4,d0
